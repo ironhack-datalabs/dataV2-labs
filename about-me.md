@@ -6,3 +6,4 @@ I decided to study Data Analytics in Ironhack because it combines three fundamen
 
 I would like to keep working on the Health field, just more related to tecnhology.
 My goals are to keep studying and growying
+
