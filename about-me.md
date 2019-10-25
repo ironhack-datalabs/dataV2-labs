@@ -5,7 +5,7 @@ I'm from Portugal. I'm a nuclear medicine technologist and it's my first time wo
 I decided to study Data Analytics in Ironhack because it combines three fundamental areas like Statistics, Programming and Machine Learning.
 
 I would like to keep working on the Health field, just more related to tecnhology.
-My goals are to keep studying and growying
+My goals are to keep studying and growying as a person and as a professional
 
 The weather will be great tomorrow! Enjoy it!
 
