@@ -26,7 +26,7 @@ Upon completion, add your deliverables to git. Then commit git and push your bra
 
 [Scipy Module Stats](https://docs.scipy.org/doc/scipy/reference/stats.html)
 
-[Probability distribution cheat sheet](http://blog.cloudera.com/blog/2015/12/common-probability-distributions-the-data-scientists-crib-sheet/)
+[Probability cheat sheet](https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf)
 
 [Poisson Distribution: Predict the score in soccer betting](https://www.pinnacle.com/en/betting-articles/Soccer/how-to-calculate-poisson-distribution/MD62MLXUMKMXZ6A8)
 
