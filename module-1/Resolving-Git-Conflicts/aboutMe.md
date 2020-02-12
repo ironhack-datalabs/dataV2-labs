@@ -6,9 +6,5 @@
 
 This is my about me page!
 
-<<<<<<< HEAD
 Local changes to create conflict ...
-=======
 This line is being edited from github to create a conflict
-
->>>>>>> a2b3b874aed62caba9943c560eb80d2a89991bba
