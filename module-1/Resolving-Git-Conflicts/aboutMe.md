@@ -8,3 +8,5 @@ This is my about me page!
 
 Local changes to create conflict ...
 This line is being edited from github to create a conflict
+
+👹 COOOONFLICT 👹
