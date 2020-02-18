@@ -1,0 +1,21 @@
+Variable-naming:
+- I will create variables in a way such that they are as straight-forward as possible.
+
+Function-naming:
+- I will create functions in a way such that they are as straight-forward as possible.
+
+Git:
+- I will only push requests, if I am convinced that my work may be helpful to the author of the code.
+
+Libraries:
+- I will create Libraries in a way such that they are actually as structured and ordered as physical libraries.
+
+Community Conventions:
+- I will always try to make my code as readable and as straight-forward as possible.
+- I will add comments where helpful to further help readers understand my train of thought.
+- I will try to create my code in the simplest form possible. Unnecessary loops or conditions shall be avoided. 
+  However, for me, understandibility overweighs simplicity. Most often however, they will go hand in hand.
+- I will try to create a code in such a way that I always know why it works.
+
+The specific rules that I will try to follow:
+- 
