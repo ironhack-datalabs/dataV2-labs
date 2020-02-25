@@ -1,0 +1,37 @@
+USE lab_mysql;
+CREATE TABLE cars_final (
+VIN INT AUTO_INCREMENT PRIMARY KEY, 
+manufacturer VARCHAR(20) NOT NULL, 
+model VARCHAR(20), 
+year INT, 
+color VARCHAR(20), 
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE Salespersons (
+staff_ID INT AUTO_INCREMENT PRIMARY KEY, 
+staff_name VARCHAR(20) NOT NULL, 
+store VARCHAR(20),  
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE Customers (
+customer_ID INT AUTO_INCREMENT PRIMARY KEY, 
+customer_name VARCHAR(20) NOT NULL, 
+phone_number INT,
+e_mail VARCHAR(20),
+adress VARCHAR(20),
+city VARCHAR(20),
+state VARCHAR(20),
+postal_code INT,
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE Invoices (
+invoice_number INT AUTO_INCREMENT PRIMARY KEY, 
+date_of_invoice VARCHAR(20) NOT NULL, 
+VIN INT,
+customer_ID INT,
+staff_ID INT,
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
