@@ -4,32 +4,32 @@
 #Calculate the royalty of each sale for each author and the 
 #advance for each author and publication.
 
-SELECT authors.au_id AS AUTHOR_ID, titles.title AS TITLE, 
+SELECT authors.au_id AS AUTHOR_ID, titles.title_id AS TITLE, 
 (titles.advance * titleauthor.royaltyper / 100) AS ADVANCE, 
 (titles.price * sales.qty * titles.royalty / 100 * 
 titleauthor.royaltyper / 100) AS ROYALTY
 FROM authors
-LEFT JOIN titleauthor
+INNER JOIN titleauthor
 ON authors.au_id = titleauthor.au_id
-LEFT JOIN titles
+INNER JOIN titles
 ON titleauthor.title_id = titles.title_id
-LEFT JOIN sales
+INNER JOIN sales
 ON titleauthor.title_id = sales.title_id
-GROUP BY authors.au_id, titles.title;
+GROUP BY authors.au_id, titles.title_id;
 
 # Step 2: Aggregate the total royalties for each title and author
 
 SELECT AUTHOR_ID, TITLE, (ROYALTY+ADVANCE) AS AGGREGATED
-FROM (SELECT authors.au_id AS AUTHOR_ID, titles.title AS TITLE, 
+FROM (SELECT authors.au_id AS AUTHOR_ID, titles.title_id AS TITLE, 
 		(titles.advance * titleauthor.royaltyper / 100) AS ADVANCE, 
 		(titles.price * sales.qty * titles.royalty / 100 * 
 		titleauthor.royaltyper / 100) AS ROYALTY
 		FROM authors
-		LEFT JOIN titleauthor
+		INNER JOIN titleauthor
 		ON authors.au_id = titleauthor.au_id
-		LEFT JOIN titles
+		INNER JOIN titles
 		ON titleauthor.title_id = titles.title_id
-		LEFT JOIN sales
+		INNER JOIN sales
 		ON titleauthor.title_id = sales.title_id
 		GROUP BY authors.au_id, titles.title) summary
 GROUP BY AUTHOR_ID, TITLE;
@@ -38,16 +38,16 @@ GROUP BY AUTHOR_ID, TITLE;
 
 SELECT AUTHOR_ID, SUM(AGGREGATED) AS PROFITS
 FROM (SELECT AUTHOR_ID, TITLE, (ROYALTY+ADVANCE) AS AGGREGATED
-		FROM (SELECT authors.au_id AS AUTHOR_ID, titles.title AS TITLE, 
+		FROM (SELECT authors.au_id AS AUTHOR_ID, titles.title_id AS TITLE, 
 			(titles.advance * titleauthor.royaltyper / 100) AS ADVANCE, 
 			(titles.price * sales.qty * titles.royalty / 100 * 
 			titleauthor.royaltyper / 100) AS ROYALTY
 			FROM authors
-			LEFT JOIN titleauthor
+			INNER JOIN titleauthor
 			ON authors.au_id = titleauthor.au_id
-			LEFT JOIN titles
+			INNER JOIN titles
 			ON titleauthor.title_id = titles.title_id
-			LEFT JOIN sales
+			INNER JOIN sales
 			ON titleauthor.title_id = sales.title_id
 			GROUP BY authors.au_id, titles.title) summary
 	GROUP BY AUTHOR_ID, TITLE) summary
@@ -59,16 +59,16 @@ LIMIT 3;
 # query the temporary tables in the subsequent steps.
 
 CREATE TEMPORARY TABLE publications.author_title_royalty_advance_summary
-SELECT authors.au_id AS AUTHOR_ID, titles.title AS TITLE, 
+SELECT authors.au_id AS AUTHOR_ID, titles.title_id AS TITLE, 
 (titles.advance * titleauthor.royaltyper / 100) AS ADVANCE, 
 (titles.price * sales.qty * titles.royalty / 100 * 
 titleauthor.royaltyper / 100) AS ROYALTY
 FROM authors
-LEFT JOIN titleauthor
+INNER JOIN titleauthor
 ON authors.au_id = titleauthor.au_id
-LEFT JOIN titles
+INNER JOIN titles
 ON titleauthor.title_id = titles.title_id
-LEFT JOIN sales
+INNER JOIN sales
 ON titleauthor.title_id = sales.title_id
 GROUP BY authors.au_id, titles.title;
 
