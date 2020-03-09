@@ -19,7 +19,7 @@ As a good reference (once you have looked for some information) you have   [this
 
 ### Answer:
 If an experiment were to be repeated infinitely often, the average value of a discrete random variable would be the mean value of the results of the experiment. This mean value can be interpreted as an expected value, i.e. we would expect this value if we were to perform the experiment infinitely.
-Expected value and arithmetic mean are identical if the probability for each attempt is the same. This is the case in a binomially distributed experiment, for example. If the probability is different for each experiment, the expected value is calculated using the formula above. In this case, the expected value is a weighted arithmetic mean.
+Expected value and arithmetic mean are identical if the probability for each attempt is the same. This is the case in a binomially distributed experiment, for example. If the probability is different for each experiment the expected value is a weighted arithmetic mean.
 
 The expected value can be used to determine whether a game is "fair". In a fair game, the expected value would be zero - you would lose as often as you would win. In the long run, profit and loss would balance each other out.
 
