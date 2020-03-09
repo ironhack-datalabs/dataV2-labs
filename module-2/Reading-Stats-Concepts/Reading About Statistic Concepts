@@ -1,0 +1,34 @@
+Challenge 1: What is the difference between expected value and mean?
+
+The concept of expected value is closely related to the random variables, which can be defined as a measurable function defined on a probability space whose outcomes are typically real number. 
+In this sense, the expected value of a random variable is the average of the outcomes of this variable, weighted by their probabilities of occurrence.
+In general, expected value requires a set of probabilities to be assigned to each possible outcome.
+
+On the contrary, the arithmetic mean, is the central value of a discrete set of numbers: specifically, the sum of the values divided by the number of values.
+
+However, when referring to the population mean, the two concepts overlap. In fact, for a finite population, the population mean of a property is equal to the arithmetic mean of the given property while considering every member of the population.
+
+For example, when calculating the average height of people in a class room, if X = the possibility of drawing any person in the classrooom, with every person having an equal possibility to being drawn, then the arithmetic average and the expected value of X will be equal.
+
+
+Challenge 2: What is the "problem" in science with p-values?
+
+In inferential statistics, the null hypothesis is a general statement or default position that there is no relationship between two measured phenomena or no association among groups. 
+
+The P-value is a measure of the strength of the evidence against the null hypothesis that is provided by the sample. It is the probability that you would get the observed results if there is no real relationship between two phenomena. In general, the lower the P value, the better chance of proving the null hypothesis is false.
+
+The article claims that we should "not conclude there is ‘no difference’ or ‘no association’ just because a P value is larger than a threshold such as 0.05". In more practical terms, we should not use the p-value as a confirmation of the abscence of relationship. However, the opposite remains true: a low value of the p-value is a solid evidence for statistical significance of a relationship.
+
+For instance, we want to analyse the relationshio between stock prices (Y) and interest rate (X1) and exchage rate (X2). 
+We find that the p-value for X1 is 0.0001. Given the low p-value we can reject the the null hypothesis of no relationship between stock prices and interest rate.
+We also find that the p-value for X2 is 0.15. Given the high p-value we cannot reject the the null hypothesis of abscence of relationship. However, we cannot conclude that there is no relationship between the the two. Not being able to reject the null hypothesis is not equivalent to conferming the abscence of relationship.
+
+
+Challenge 3: Applying testing to a specific case: A/B testing.
+
+A/B testing is a way to compare two versions of a single variable, typically by testing a subject's response to variant A against variant B, and determining which of the two variants is more effective.
+In Netflix case, the variable to increase the engagement of the user was the presence of alternative pictures in the preview of the content. They tried to analyse whether users were more likely to watch a certain content in the presence of another pitcure in the preview.
+
+In our case, we should implement the same method and add a new botton inviting the users to click on it only to a limited portion of our clients. By tracking the two groups (A with botton, B without). We could understand if there is an increase in egangement in the first group of users. If that were the case, we would implement the new botton to the whole population.
+
+
