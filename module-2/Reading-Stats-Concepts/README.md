@@ -29,7 +29,7 @@ We have told you that a lot of scientifical investigations are based on p-values
 
 Don't hesitate to use more articles if you want to :)
 
-### Answer 
+### Answer:
 According to the article, one should not conclude that there is "no difference" or "no association" just because a P-value has reached a certain magnitude or because a confidence interval includes zero. Nor should one come to the conclusion that two studies contradict each other because one had a statistically significant result but the other did not. 
 
 Furthermore, the authors of this article state that surveys in numerous papers have shown that statistically non-significant results are interpreted as "no difference" or "no effect" in about half of the cases. The authors of this article call for the entire concept of statistical significance to be abandoned.
