@@ -29,6 +29,12 @@ We have told you that a lot of scientifical investigations are based on p-values
 
 Don't hesitate to use more articles if you want to :)
 
+### Answer 
+According to the article, one should not conclude that there is "no difference" or "no association" just because a P-value has reached a certain magnitude or because a confidence interval includes zero. Nor should one come to the conclusion that two studies contradict each other because one had a statistically significant result but the other did not. 
+
+Furthermore, the authors of this article state that surveys in numerous papers have shown that statistically non-significant results are interpreted as "no difference" or "no effect" in about half of the cases. The authors of this article call for the entire concept of statistical significance to be abandoned.
+They further argue that one has to learn to accept uncertainty. A practical way to do this, would be to rename confidence intervals to "compatibility intervals" in order to avoid excessive confidence. 
+In particular, the authors also recommend describing the practical effects of all values within the interval, especially the observed effect (or point estimate) and the limits. It should be noted that all values between the bounds of the interval are reasonably compatible with the data given the statistical assumptions used to calculate the interval. Therefore, the authors do not consider it useful to mark a particular value (such as the zero value) in the interval as "shown".
 
 ### Challenge 3: Applying testing to a specific case: A/B testing.
 A/B testing is a widely used tool to understand differences between two samples. It is a way to measure the impact of something we did: 
