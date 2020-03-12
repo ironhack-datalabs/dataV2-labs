@@ -13,13 +13,37 @@ You need to submit a markdown file with the solution to the following challenges
 ### Challenge 1
 One player rolls two dices. Describe the measurable space and the random variable for:
 * A. The values that the player obtains.
+(1,1) (1,2) (1,3)
 * B. The sum of the values obtained.
+2-12
 * C. The maximum value obtained after rolling both dices.
+1-6
+
 
 Describe the following events:
 * Case A: Both values are greater than 5.
 * Case B: The sum of values is even.
 * Case C: The maximum is the value of both rolls.
+
+
+#### A
+6,6
+1/36
+
+#### B
+the sum of the value is even, if both values are even or if both values are uneven
+as there are as many even as uneven numbers on a dice, the propability for this is 50%
+e.g. 6 might be 3+3 or 4+2 or 2+4
+
+#### C
+12
+
+
+
+
+#### C
+12
+
 
 ### Challenge 2
 One player picks two cards from a poker deck. Describe the measurable space and the random variable for:
@@ -27,22 +51,43 @@ One player picks two cards from a poker deck. Describe the measurable space and 
 * B. The sum of card values. Consider that the value of figures is 10 and the value of aces is 15.
 * C. The number of hearts or spades he picks.
 
+#### A
+there are the figures Jack, Queen, King
+a poker deck has 2,3,4,5,6,7,8,9,10, Jack, Queen, King, Ace --> 13 different types à 4 
+
+#### B
+4 to 30
+
+#### C
+13*4=52 cards of which half is the union of heart and spades --> 26
+number might be 0 to 2
+
 Describe the following events:
 * Case A: The number of figures in the cards the player picked is two.
 * Case B: The sum of card values is 17.
 * Case C: The value of both cards is less than 8.
 
+#### A
+
+# !
 ### Challenge 3
 Two players roll a dice. Describe the measurable space and the random variable for:
 * A. The score of player A.
+1-6 
 * B. The greatest score.
+6
 * C. The earnings of player A if the game rules state that:  
 "The player with the greatest score gets a coin from the other player.".
+-1,0, 1 if they just play one round
 * D. The earnings of player A if the game rules state that:  
 "The player with the greatest score gets as many coins as the difference between the score of player A and player B.". 
+-5 to 5 in one round
 
 Describe the following events:
 * Case A: The score of player A is 2.
+--> this must relate somehow to A... 
+the question cannot be answered without any background information
+
 * Case B: The greatest score is lower or equal than 2.
 * Case C: Considering the case where the winner gets as many coins as the difference between scores (D), describe: 
   * Player A wins at least 4 coins.
