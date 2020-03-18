@@ -37,6 +37,7 @@ To complete this lab, follow each of the steps below.
 ## Deliverables
 
 - `main.txt` file with a link to your Tableau Public workbook.
+https://public.tableau.com/profile/ren.2984#!/vizhome/LiquorDashboard3_Warehouse/Dashboard3_Warehouse?publish=yes
 
 ## Submission
 
