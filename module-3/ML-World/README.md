@@ -1,43 +1,60 @@
 ![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
 
-# Lab | Machine Learning & AI World
-Machine Learning now is one of the trending topics if you talk aboyt technology. Everyday a lot of material about this topic arrives to the media, not only news about new discovers but also a lot of tutorials and articles about people working on this.
+# Lab | Machine Learning and Artificial Intelligence in the News
 
-The objectives of this lab are:
-* Get to introduced into this world through the latest most important news we have had in the last years.
-* Guide you to do a deeper research to understand them better.
+## Introduction
 
-So you will be asked to read a piece of news and then share it with your partners. This way, when we finish sharing, you will have a light idea of the most important events but also you will be able to dig into one specific better.
+Machine learning has been a trending topic in the technology media in recent years. Coverage typically includes news about new discoveries, tutorials, and profiles of individuals and teams working with the tools of machine learning.
 
-## How we will do it?
+## Objectives
 
-So let's start digging a litle bit. Imagine you open your today's AI&ML journal and you see a very interesting new. You read it but that is not enough. You want to understand:
-* If it is so important as the title says (is it really a big step?) or you think it is more important than the title let's suggests.
-* Which part of ML or AI is used and how is it related to ML or AI.
-* What did they do to take the data.
-* Which data did they use.
-* How did they do to build the model. Which type of model is?
-* Do you know any other project that applies the same techniques? Could you use something for another use case?
-* Do you find any ethical implications? Collateral effects?
-* Do you know any news related?
+The goal of this exercise is to:
 
-So you need to look for more information. Maybe the paper the scientists published, other articles, some information about the techniques, ...
+* Get acquainted with recent news coverage of machine learning developments.
+* Develop your critical thinking skills when reading popular coverage of data topics.
 
-Let's start! You will be assigned to an article and a day when you will have 5 minutes to share your research with your colleagues and then 5 minutes to discuss a little bit. Feel free to present your conclusions in the way you prefer.
+## Getting Started
 
-## News 
-1. [AlphaGO](https://www.blog.google/technology/ai/alphago-machine-learning-game-go/)
-2. [Google Autonomous Car](https://www.iflscience.com/technology/google-has-developed-self-driving-car/)
-3. [Fb Face recognition](https://gizmodo.com/facebooks-new-face-recognition-features-what-we-do-an-1823359911)
-4. [Google drawing](https://www.theverge.com/2017/4/11/15263434/google-ai-autodraw-doodle-bot-drawing-image-recognition)
-5. [Trump campaign](https://hackernoon.com/did-donald-trump-use-artificial-intelligence-to-win-the-election-8008c2c0bf59)
-6. [Brain AI](https://www.iflscience.com/brain/artificial-intelligence-recreates-images-from-inside-the-human-brain/)
-7. [Tay Microsoft racist AI](https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist)
-8. [Spotify recommendation model](https://medium.com/@terry.foley555/spotify-algorithms-5f38b6b6db58)
-9. [Malaria spot](https://www.sciencedaily.com/releases/2016/04/160425095546.htm)
-10. [Retail AI](https://www.forbes.com/sites/bernardmarr/2018/08/10/how-fashion-retailer-hm-is-betting-on-artificial-intelligence-and-big-data-to-regain-profitability/#65bdfc7a5b00)
-11. [LAPD crime algorithm](https://www.wired.com/story/los-angeles-police-department-predictive-policing/)
-12. [Traffic AI](https://motherboard.vice.com/en_us/article/jp3dn7/new-ai-algorithm-beats-even-the-worlds-worst-traffic)
-13. [Captchas](https://www.techradar.com/news/captcha-if-you-can-how-youve-been-training-ai-for-years-without-realising-it)
-14. [FaceApp](https://techcrunch.com/2017/02/08/faceapp-uses-neural-networks-for-photorealistic-selfie-tweaks/?guccounter=1)
-15. [The way we walk](https://medium.com/health-ai/googles-ai-can-see-through-your-eyes-what-doctors-can-t-c1031c0b3df4)
+You willl be assigned an article to read from the selections following. Prepare a 5 minute presentation to share your research with your colleagues. After you present, we will have a 5 minute discussion as a class.
+
+As you read and prepare to present, consider the following questions:
+
+* How important is the development discussed in the article? Do you think it is more or less important than the headline suggests?
+* Which aspects of ML or AI are relevant to this article?
+* How was the relevant data collected?
+* What data was used?
+* How was the data modelled? What type of model was used?
+* Are there any other projects you can find which apply similar techniques? For what other use cases could the techniques covered in the article be used?
+* What ethical implications do you find in the article? Are there any collateral effects?
+* Is there any other related coverage of this topic?
+
+In sharing with your colleagues, the goal will be to introduce them to the topics covered in the article, and help frame a class discussion.
+
+As you prepare, you will need to look for more information, such as:
+
+* the paper(s) the scientist(s) published
+* other articles
+* information about the techniques mentioned
+
+Feel free to present your summary and start the discussion in whichever way you prefer.
+
+## News
+
+You will be assigned one of the following articles:
+
+* [AlphaGo: using machine learning to master the ancient game of Go](https://www.blog.google/technology/ai/alphago-machine-learning-game-go/) by Demis Hassabis at Google's blog The Keyword
+* [Google Has Developed A Self-Driving Car](https://www.iflscience.com/technology/google-has-developed-self-driving-car/) at IFLScience
+* [Facebook's New Face Recognition Features: What We Do (and Don't) Know](https://gizmodo.com/facebooks-new-face-recognition-features-what-we-do-an-1823359911) by Sidney Fussell at Gizmodo
+* [Google’s AI doodle bot will transform your crude drawings into glorious clip art](https://www.theverge.com/2017/4/11/15263434/google-ai-autodraw-doodle-bot-drawing-image-recognition) by Nick Statt at The Verge
+* [Did Donald Trump Use Artificial Intelligence to Win the Election?](https://hackernoon.com/did-donald-trump-use-artificial-intelligence-to-win-the-election-8008c2c0bf59) by Trent Lapinski at Hackernoon
+* [Artificial Intelligence Recreates Images From Inside The Human Brain](https://www.iflscience.com/brain/artificial-intelligence-recreates-images-from-inside-the-human-brain/) at IFLScience
+* [Twitter taught Microsoft’s AI chatbot to be a racist asshole in less than a day
+](https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist) by James Vincent at The Verge
+* [Spotify Algorithms](https://medium.com/@terry.foley555/spotify-algorithms-5f38b6b6db58) by Terry Foley
+* [Videogames against malaria: Learn through playing](https://www.sciencedaily.com/releases/2016/04/160425095546.htm) at ScienceDaily
+* [How Fashion Retailer H&M Is Betting On Artificial Intelligence And Big Data To Regain Profitability](https://www.forbes.com/sites/bernardmarr/2018/08/10/how-fashion-retailer-hm-is-betting-on-artificial-intelligence-and-big-data-to-regain-profitability/#65bdfc7a5b00) by Bernard Marr at Forbes
+* [How the LAPD Uses Data to Predict Crime](https://www.wired.com/story/los-angeles-police-department-predictive-policing/) by Issie Lapowsky at Wired
+* [New AI Algorithm Beats Even the World's Worst Traffic](https://motherboard.vice.com/en_us/article/jp3dn7/new-ai-algorithm-beats-even-the-worlds-worst-traffic) by Michael Byrne at Vice
+* [Captcha if you can: how you’ve been training AI for years without realising it](https://www.techradar.com/news/captcha-if-you-can-how-youve-been-training-ai-for-years-without-realising-it) by James O'Malley at TechRadar
+* [FaceApp uses neural networks for photorealistic selfie tweaks](https://techcrunch.com/2017/02/08/faceapp-uses-neural-networks-for-photorealistic-selfie-tweaks/?guccounter=1) by Natasha Lomas at TechCrunch
+* [Google’s AI can see through your eyes what doctors can’t](https://medium.com/health-ai/googles-ai-can-see-through-your-eyes-what-doctors-can-t-c1031c0b3df4) by Susan Ruyu Qi at Health.AI
