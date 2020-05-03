@@ -15,7 +15,7 @@ The goal of this exercise is to:
 
 ## Getting Started
 
-You willl be assigned an article to read from the selections following. Prepare a 5 minute presentation to share your research with your colleagues. After you present, we will have a 5 minute discussion as a class.
+You will be assigned an article to read from the selections following. Prepare a 5 minute presentation to share your research with your colleagues. After you present, we will have a 5 minute discussion as a class.
 
 As you read and prepare to present, consider the following questions:
 
