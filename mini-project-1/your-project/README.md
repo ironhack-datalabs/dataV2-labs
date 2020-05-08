@@ -1,9 +1,12 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of Your Project
-*[Your Name]*
+Hangman game
 
-*[Your Cohort, Campus & Date]*
+Vilma Stasiute
+
+Data Analytics Full time
+Amsterdam
+May 2020
 
 ## Content
 - [Project Description](#project-description)
@@ -13,7 +16,7 @@
 - [Links](#links)
 
 ## Project Description
-Write a short description of your project. Write 1-2 sentences about what what you chose to build and why. 
+Hangman game
 
 ## Rules
 Describe briefly the rules of the game you chose. 
