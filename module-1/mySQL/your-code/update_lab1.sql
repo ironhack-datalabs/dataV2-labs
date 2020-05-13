@@ -23,4 +23,3 @@ SET email = "hello@napoleon.me"
 WHERE cust_name = "Napoléon Bonaparte"   and cust_nr = 3;
 
 SELECT * FROM customers;
-

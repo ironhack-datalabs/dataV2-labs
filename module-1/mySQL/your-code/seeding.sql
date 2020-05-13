@@ -28,6 +28,8 @@ INSERT INTO salespersons (staff_id, salesp_name, store) VALUES
 SELECT * FROM salespersons;
 
 INSERT INTO invoices (invoice_id, sale_date, car_id, cust_nr, staff_nr) VALUES
-("852399038",	"2018-08-22",	0,	1,	3),
-("731166526",	"2018-12-31",	3,	0,	5),
-("271135104",	"2019-01-22",	2,	2,	7);
+("852399038",	"2018-08-22",	1,	1,	3),
+("731166526",	"2018-12-31",	3,	2,	5),
+("271135104",	"2019-01-22",	2,	3,	7);
+
+SELECT * FROM invoices;
