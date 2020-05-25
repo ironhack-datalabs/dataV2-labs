@@ -1,0 +1,8 @@
+Comments on Roos original code:
+- The way constructed now does not work when going negative (e.g. one minus three)
+- There must be an easier way to convert words to letters and back (Roos off course saw my solution with the dictionary and had an AHA moment ;-))
+- I really do like the restarter idea, even if it was not working in her file
+    We spend most of our time together to make the restarter idea working.
+
+original file Roos: code_Roos.py
+new file: code_Roos_Vincent.py
