@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>publications</string>
+			<key>host</key>
+			<string>34.77.233.175</string>
+			<key>kcid</key>
+			<string>-7183877366410809482</string>
+			<key>name</key>
+			<string>34.77.233.175/IHAMSFT</string>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPTCPIPConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>student</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentFilterV2</key>
+			<dict>
+				<key>children</key>
+				<array/>
+				<key>filterClass</key>
+				<string>groupNode</string>
+				<key>isConjunction</key>
+				<true/>
+			</dict>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0
+			b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRk
+			YXRhgAGuCwwZGhscHSEoLTE1ODxVJG51bGzTDQ4PEBQYV05TLmtl
+			eXNaTlMub2JqZWN0c1YkY2xhc3OjERITgAKAA4AEoxUWF4AFgAaA
+			CIANVHR5cGVUcm93c1RrZXlzXxAmU2VsZWN0aW9uRGV0YWlsVHlw
+			ZVByaW1hcnlLZXllZERldGFpbHPTDQ4PHh8goKCAB9IiIyQlWiRj
+			bGFzc25hbWVYJGNsYXNzZXNfEBNOU011dGFibGVEaWN0aW9uYXJ5
+			oyQmJ1xOU0RpY3Rpb25hcnlYTlNPYmplY3TSDg8pLKIqK4AJgAuA
+			DNIPLi8wWU5TLnN0cmluZ4AKVWF1X2lk0iIjMjNfEA9OU011dGFi
+			bGVTdHJpbmejMjQnWE5TU3RyaW5n0g8uLzeAClh0aXRsZV9pZNIi
+			Izk6Xk5TTXV0YWJsZUFycmF5ozk7J1dOU0FycmF50iIjJj2iJicA
+			CAARABoAJAApADIANwBJAEwAUQBTAGIAaABvAHcAggCJAI0AjwCR
+			AJMAlwCZAJsAnQCfAKQAqQCuANcA3gDfAOAA4gDnAPIA+wERARUB
+			IgErATABMwE1ATcBOQE+AUgBSgFQAVUBZwFrAXQBeQF7AYQBiQGY
+			AZwBpAGpAAAAAAAAAgEAAAAAAAAAPgAAAAAAAAAAAAAAAAAAAaw=
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{0, 0}, {1071, 619}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>#Challenge 1
+#What titles each author has published at which publishers?
+select authors.au_lname, authors.au_fname, authors.au_id, titles.title, publishers.pub_name
+from titleauthor
+inner join authors on titleauthor.au_id = authors.au_id
+inner join titles on titleauthor.title_id = titles.title_id
+inner join publishers on titles.pub_id = publishers.pub_id;
+#Challenge 2
+#How many titles each author has published at each publisher?
+select authors.au_id, authors.au_lname, authors.au_fname, publishers.pub_name, COUNT(titles.title_id) as titles
+from titleauthor
+inner join authors on titleauthor.au_id = authors.au_id
+inner join titles on titleauthor.title_id = titles.title_id
+inner join publishers on titles.pub_id = publishers.pub_id
+group by authors.au_id, publishers.pub_name;
+#Challenge 3
+#Who are the top 3 authors who have sold the highest number of titles?
+select authors.au_id, authors.au_lname, authors.au_fname, SUM(sales.qty) as total
+from titleauthor
+inner join authors on titleauthor.au_id = authors.au_id
+inner join titles on titleauthor.title_id = titles.title_id
+inner join sales on titles.title_id = sales.title_id
+group by authors.au_id
+order by total desc
+limit 3;
+#Challenge 4
+#modify your solution in Challenge 3 so that the output will display all 23 authors instead of the top 3
+(select authors.au_id, authors.au_lname, authors.au_fname, SUM(sales.qty) as total
+from titleauthor
+inner join authors on titleauthor.au_id = authors.au_id
+inner join titles on titleauthor.title_id = titles.title_id
+inner join sales on titles.title_id = sales.title_id
+group by authors.au_id)
+union
+(select authors.au_id, authors.au_lname, authors.au_fname, 0 as total
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id
+where titleauthor.au_id is null
+group by authors.au_id)
+order by total desc;</string>
+			<key>table</key>
+			<string>titleauthor</string>
+			<key>view</key>
+			<string>SP_VIEW_CUSTOMQUERY</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>214</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>#Challenge 4
+#modify your solution in Challenge 3 so that the output will display all 23 authors instead of the top 3
+(select authors.au_id, authors.au_lname, authors.au_fname, SUM(sales.qty) as total
+from titleauthor
+inner join authors on titleauthor.au_id = authors.au_id
+inner join titles on titleauthor.title_id = titles.title_id
+inner join sales on titles.title_id = sales.title_id
+group by authors.au_id
+)
+union
+(select authors.au_id, authors.au_lname, authors.au_fname, 0 as total
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id
+where titleauthor.au_id is null
+group by authors.au_id
+)
+order by total desc</string>
+		<string>#Challenge 4
+#modify your solution in Challenge 3 so that the output will display all 23 authors instead of the top 3
+(select authors.au_id, authors.au_lname, authors.au_fname, SUM(sales.qty) as total
+from titleauthor
+inner join authors on titleauthor.au_id = authors.au_id
+inner join titles on titleauthor.title_id = titles.title_id
+inner join sales on titles.title_id = sales.title_id
+group by authors.au_id
+order by total desc)
+union
+(select authors.au_id, authors.au_lname, authors.au_fname, 0 as total
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id
+where titleauthor.au_id is null
+group by authors.au_id
+order by total desc)</string>
+		<string>#Challenge 4
+#modify your solution in Challenge 3 so that the output will display all 23 authors instead of the top 3
+(select authors.au_id, authors.au_lname, authors.au_fname, SUM(sales.qty) as total
+from titleauthor
+inner join authors on titleauthor.au_id = authors.au_id
+inner join titles on titleauthor.title_id = titles.title_id
+inner join sales on titles.title_id = sales.title_id
+group by authors.au_id
+order by total desc)
+union
+(select authors.au_id, authors.au_lname, authors.au_fname, 0 as total
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id
+group by authors.au_id
+order by total desc)</string>
+		<string>#Challenge 4
+#modify your solution in Challenge 3 so that the output will display all 23 authors instead of the top 3
+select authors.au_id, authors.au_lname, authors.au_fname, SUM(sales.qty) as total
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id
+inner join titles on titleauthor.title_id = titles.title_id
+inner join sales on titles.title_id = sales.title_id
+group by authors.au_id
+order by total desc
+union
+select authors.au_id, authors.au_lname, authors.au_fname, 0 as total
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id
+group by authors.au_id
+order by total desc</string>
+		<string>select authors.au_id, authors.au_lname, authors.au_fname, 0 as total
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id
+group by authors.au_id
+order by total desc</string>
+		<string>select authors.au_id, authors.au_lname, authors.au_fname, 0 as total
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id
+#group by authors.au_id
+order by total desc</string>
+		<string>#Challenge 4
+#modify your solution in Challenge 3 so that the output will display all 23 authors instead of the top 3
+select authors.au_id, authors.au_lname, authors.au_fname, SUM(sales.qty) as total
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id
+inner join titles on titleauthor.title_id = titles.title_id
+inner join sales on titles.title_id = sales.title_id
+group by authors.au_id
+order by total desc</string>
+		<string>#Challenge 4
+#modify your solution in Challenge 3 so that the output will display all 23 authors instead of the top 3
+select authors.au_id, authors.au_lname, authors.au_fname, SUM(sales.qty) as total
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id
+inner join titles on titleauthor.title_id = titles.title_id
+inner join sales on titles.title_id = sales.title_id
+group by authors.au_id
+order by total desc
+UNION
+select authors.au_id, authors.au_lname, authors.au_fname, 0 as total
+from titleauthor
+left join authors on titleauthor.au_id = authors.au_id
+group by authors.au_id
+order by total desc</string>
+		<string>#Challenge 4
+#modify your solution in Challenge 3 so that the output will display all 23 authors instead of the top 3
+select authors.au_id, authors.au_lname, authors.au_fname, SUM(sales.qty) as total
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id
+inner join titles on titleauthor.title_id = titles.title_id
+inner join sales on titles.title_id = sales.title_id
+group by authors.au_id
+order by total desc
+UNION
+select authors.au_id, authors.au_lname, authors.au_fname, 0 as total
+from titleauthor
+left join authors on titleauthor.au_id = authors.au_id</string>
+		<string>#Challenge 4
+#modify your solution in Challenge 3 so that the output will display all 23 authors instead of the top 3
+select authors.au_id, authors.au_lname, authors.au_fname, SUM(sales.qty) as total
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id
+inner join titles on titleauthor.title_id = titles.title_id
+inner join sales on titles.title_id = sales.title_id
+UNION
+select authors.au_id, authors.au_lname, authors.au_fname, 0 as total
+from titleauthor
+left join authors on titleauthor.au_id = authors.au_id
+group by authors.au_id
+order by total desc</string>
+		<string>#UNION
+#select authors.au_id, authors.au_lname, authors.au_fname, SUM(sales.qty) as total
+#from titleauthor
+#left join authors on titleauthor.au_id = authors.au_id
+#inner join titles on titleauthor.title_id = titles.title_id
+#inner join sales on titles.title_id = sales.title_id;</string>
+		<string>#Challenge 4
+#modify your solution in Challenge 3 so that the output will display all 23 authors instead of the top 3
+select authors.au_id, authors.au_lname, authors.au_fname, SUM(sales.qty) as total
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id
+inner join titles on titleauthor.title_id = titles.title_id
+inner join sales on titles.title_id = sales.title_id
+UNION
+select authors.au_id, authors.au_lname, authors.au_fname, SUM(sales.qty) as total
+from titleauthor
+left join authors on titleauthor.au_id = authors.au_id
+inner join titles on titleauthor.title_id = titles.title_id
+inner join sales on titles.title_id = sales.title_id</string>
+		<string>#Challenge 4
+#modify your solution in Challenge 3 so that the output will display all 23 authors instead of the top 3
+select authors.au_id, authors.au_lname, authors.au_fname, SUM(sales.qty) as total
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id
+inner join titles on titleauthor.title_id = titles.title_id
+inner join sales on titles.title_id = sales.title_id
+UNION
+select authors.au_id, authors.au_lname, authors.au_fname, SUM(sales.qty) as total
+from titleauthor
+left join authors on titleauthor.au_id = authors.au_id
+inner join titles on titleauthor.title_id = titles.title_id
+inner join sales on titles.title_id = sales.title_id
+group by authors.au_id
+order by total desc</string>
+		<string>#Challenge 4
+#modify your solution in Challenge 3 so that the output will display all 23 authors instead of the top 3
+select authors.au_id, authors.au_lname, authors.au_fname, SUM(sales.qty) as total
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id
+inner join titles on titleauthor.title_id = titles.title_id
+inner join sales on titles.title_id = sales.title_id
+group by authors.au_id
+order by total desc
+UNION
+select authors.au_id, authors.au_lname, authors.au_fname, SUM(sales.qty) as total
+from titleauthor
+left join authors on titleauthor.au_id = authors.au_id
+inner join titles on titleauthor.title_id = titles.title_id
+inner join sales on titles.title_id = sales.title_id
+group by authors.au_id
+order by total desc</string>
+		<string>select authors.au_id, authors.au_lname, authors.au_fname
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id
+#inner join titles on titleauthor.title_id = titles.title_id
+group by authors.au_id</string>
+		<string>select authors.au_id, authors.au_lname, authors.au_fname
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id
+inner join titles on titleauthor.title_id = titles.title_id
+group by authors.au_id</string>
+		<string>select authors.au_id, authors.au_lname, authors.au_fname
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id
+group by authors.au_id</string>
+		<string>select authors.au_id, authors.au_lname, authors.au_fname
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id
+group by authors.au_id
+order by total desc</string>
+		<string>select authors.au_id, authors.au_lname, authors.au_fname
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id</string>
+		<string>#Challenge 4
+#modify your solution in Challenge 3 so that the output will display all 23 authors instead of the top 3
+select authors.au_id, authors.au_lname, authors.au_fname, SUM(sales.qty) as total
+from titleauthor
+right join authors on titleauthor.au_id = authors.au_id
+right join titles on titleauthor.title_id = titles.title_id
+right join sales on titles.title_id = sales.title_id
+group by authors.au_id
+order by total desc</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.7.25-google</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>

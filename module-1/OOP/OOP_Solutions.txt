@@ -1,0 +1,13 @@
+# Lab | Object-Oriented Programming
+
+1) Remove All The Marked Elements of a List
+https://www.codewars.com/kata/reviews/56308b64fdaa7c0e700000d5/groups/5ecb9fa2a200d200010ea1ed
+
+2) Method For Counting Total Occurence Of Specific Digits
+
+https://www.codewars.com/kata/reviews/56312d8de29fcd4e97000060/groups/5ecba52650fbac0001003e25
+
+3) Ordered Count of Characters
+
+https://www.codewars.com/kata/reviews/57a73a26845079abbc000080/groups/5ecc30692d53be0001b6e8af
+
