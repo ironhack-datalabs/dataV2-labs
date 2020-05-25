@@ -1,0 +1,35 @@
+Exercise 1
+
+class List:
+    def remove_(self, integer_list, values_list):
+        #your code here
+        result = []
+        for i in range(len(integer_list)):
+            if integer_list[i] not in values_list:
+                result.append(integer_list[i])
+            else:
+                i += 1
+        return result
+
+Exercise 2
+
+class List(object):
+    def count_spec_digits(self, integers_list, digits_list):
+        # your code here
+        lst = [str(i) for i in integers_list]
+        string = ""
+        for j in range(len(lst)):
+            string = string + lst[j]
+        result = [(digits_list[k], string.count(str(digits_list[k]))) for k in range(len(digits_list))]
+        return result
+
+Exercise 3
+
+def ordered_count(inp):
+    characters = []
+    for i in inp:
+        if i not in characters:
+            characters.append(i)
+    #print(characters)
+    result = [(characters[k], inp.count(characters[k])) for k in range(len(characters))]
+    return result
