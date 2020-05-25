@@ -1,0 +1,8 @@
+solution for Remove All The Marked Elements of a List:
+https://www.codewars.com/kata/reviews/56308b64fdaa7c0e700000d5/groups/5e159376e22e9800018006b1
+
+solution for Method For Counting Total Occurence Of Specific Digits:
+https://www.codewars.com/kata/reviews/56312d8de29fcd4e97000060/groups/5ecb9fa0a200d200010ea1eb
+
+solution for Ordered Count of Characters:
+https://www.codewars.com/kata/reviews/57a73a26845079abbc000080/groups/5ecb9fb7f192900001d99492
