@@ -1,0 +1,33 @@
+![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
+
+
+##Challenges
+
+### Challenge 1: What is the difference between expected value and mean?
+ 
+
+Very often these two terms (mean and expected value) are used interchangably.  However, I do not consider them synonyms.
+There is a difference between the two.  
+In a nutshell, the mean value is derived from a practical approach to real-life data.  This will result in a frequency distribution and a mean value.
+Alternately, an expected value is derived from a theoretical approach to samples that have not been physically counted but follow probability theory.  These data sets will result in a probability distribution and an expected value.
+If you can find a large enough sample size, the mean should be close to the expected value.
+
+
+
+### Challenge 2: What is the "problem" in science with p-values?
+
+There are many in the scientific and statistical communities who are calling for the importance of p-values to be diminished, due to a common misconception of the p-value meaning
+To begin, the p-value is NOT the probability of making a mistake.  It is NOT the rate of error.  These values should also no longer be used as a basis for statistical significance.
+However, it is important to note the exact p-value as it has been shown to provide important information, and be a good predictor about the replication rates for studies. It can also be used to determine which studies warrant more skepticism.
+
+
+
+### Challenge 3: Applying testing to a specific case: A/B testing.
+
+I have chosen to look at the Sephora change to the page arrangement of Gold Members.
+From what I have already learned, I would take the data from the A/B testing and implement a regression model on both sets to be able to predict conversion rates of both samples within the testing data.
+Looking at the residuals and percentage error would give me an idea of how likely Set A and Set B will perform with more data points. 
+I would also see if there is a correlation between time spent on page, and conversion rates for both sets.
+I like to examine the visualizations of the data, so I would also look at pair plots.
+
+
