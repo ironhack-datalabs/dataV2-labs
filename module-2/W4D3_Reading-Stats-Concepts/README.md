@@ -12,7 +12,7 @@ Remember for this lab: there is a right answer. But there is no perfect way to e
 
 ## Challenges
 
-_**My answers will be in bold italic under the original part of the specific challenge.**_
+_**My answers will be in bold italic under the original part of each challenge.**_
 
 ### Challenge 1: What is the difference between expected value and mean?
 You know both concepts but, is there a difference? Are they synonims? Start investigating.
@@ -22,6 +22,8 @@ As a good reference (once you have looked for some information) you have   [this
 _**Mean is used in descriptive statistics. Mean is the sum of all the events divided by the number of events.**_
 
 _**The basic expected value formula is the probability of an event multiplied by the amount of times the event happens. Expected value can only be used when we are talking over a large number of experiments.**_
+
+_**So the two concepts are no synonims of eachother.**_
 
 ### Challenge 2: What is the "problem" in science with p-values?
 We have told you that a lot of scientifical investigations are based on p-values. The last week, Nature magazine published [an article](http://nature.social/statistical4) regarding the problem. Start digging on it!
@@ -71,6 +73,8 @@ Read more about A/B testing with a couple of examples:
 [A cool general explanation](http://arts.show/tested7)
 
 So, take one single example in the articles you just read, which specific test/s would you apply? (We want you just to do a draft and think a little bit how to apply the tests you already know in this case)
+
+_**If I look at the example of Basecamp. Set up the new startpage. Make sure people are randomly directed to the "old" or the new startpage. Make a daily report on the differences. After a week the first official results. Opening for small tweaks if really needed. Second week till fourth week, daily and weekly reports. After a month official report with statistics review if change is significant.**_
 
 ## Deliverables
 You need to submit a markdown file with the answers to the questions above. You can create a new `.md` file or directly edit the `README.md`.
