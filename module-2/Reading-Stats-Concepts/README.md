@@ -57,6 +57,15 @@ So, take one single example in the articles you just read, which specific test/s
 
 ## 
 
+
+## Deliverables
+You need to submit a markdown file with the answers to the questions above. You can create a new `.md` file or directly edit the `README.md`.
+
+## Submission
+Upon completion, add your deliverables to git. Then commit git and push your branch to the remote.
+
+
+# I hope i understood the task properly...:
 This is similar to train_test_split from scikit learn or to random blind doubletests in medical studies.
 
 The steps are:
@@ -66,10 +75,3 @@ Then we can split the data into two pieces, one with the function applied and on
 Then we can compare the rate of change to the baseline for both groups and see the 'improvement'.
 This always needs to be checked against the unchanged test sample too to see if the baseline change was as expected or not.
 
-
-
-## Deliverables
-You need to submit a markdown file with the answers to the questions above. You can create a new `.md` file or directly edit the `README.md`.
-
-## Submission
-Upon completion, add your deliverables to git. Then commit git and push your branch to the remote.
