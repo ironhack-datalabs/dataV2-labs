@@ -1,0 +1,5 @@
+Indentation: 4 espaces par niveau 
+Variable naming: lowercase separé par des underscore - garder en tête que nous ne somme pas seul à lire - doit être explicatif
+function naming:
+libraries:
+community conventions: 
