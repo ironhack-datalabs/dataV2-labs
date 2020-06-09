@@ -1,0 +1,6 @@
+Lab solution:
+
+https://public.tableau.com/profile/vilma7846#!/vizhome/Lab-DataVisualizationwithTableau_15917121066800/Dashboard1
+
+Bonus challenge:
+https://public.tableau.com/profile/vilma7846#!/vizhome/Lab-DataVisualizationwithTableau-Maps/Populationdensitypersq_mile
