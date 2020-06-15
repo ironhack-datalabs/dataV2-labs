@@ -1,0 +1,49 @@
+# Challenge 1
+
+class List:
+    def remove_(self, integer_list, values_list):
+        #your code here
+        list_ans=[]
+        for i in integer_list:
+            if i not in values_list:
+              list_ans.append(i)
+        return list_ans
+
+
+#Challenge 2
+
+class List(object):
+    def count_spec_digits(self, integers_list, digits_list):
+        # your code here
+        #Integer list to list of digit strings
+        s_digit = [str(integer) for integer in integers_list]
+        a_string = ",".join(s_digit)
+        d_digit = [str(integer) for integer in digits_list]
+        d_string = ",".join(d_digit)
+
+        print (a_string)
+        #Characters to frequency
+        numfreq = []
+        i_l = a_string
+        for i in i_l:
+            for d in d_digit:
+                numfreq.append(i_l.count(d))
+        return list(zip(digits_list, numfreq))
+
+        #return [(,), (,), ..,(,)]
+
+
+# Challenge 3
+
+def ordered_count(inp):
+   # pass
+    #Unique characters
+    char =[]
+    for l in inp:
+        if l not in char:
+            char.append(l)
+    char_freq = []
+    for i in char:
+        freq = inp.count(i)
+        char_freq.append(freq)
+    return list(zip(char,char_freq))
