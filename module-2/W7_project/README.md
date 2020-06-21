@@ -13,6 +13,7 @@ Does international trade correlate with the price farmers get for their goods?
 ## Dataset
 Datasets used come from the EU and FAO.
 Links to EUROSTAT and FAOSTAT are given in the links section below.
+The csv file of the FAOSTAT dataset could not be uploaded to github as it is more then 100MB. In the links section I will provide a specific link to this file. If needed you can always check with me to get the right file.
 
 ## Workflow & organisation
 The first two days were used to find and explore datasets.
@@ -23,3 +24,5 @@ Day four and five consisted of doing last analysis, creating presentation and pr
 [link to EUROSTAT](https://ec.europa.eu/eurostat/data/database)
 
 [link to FAOSTAT](http://www.fao.org/faostat/en/#data)
+
+[link to FAOSTAT dataset](http://www.fao.org/faostat/en/#data/PP)
