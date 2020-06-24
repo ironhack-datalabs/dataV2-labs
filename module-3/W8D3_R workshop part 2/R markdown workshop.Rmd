@@ -1,0 +1,127 @@
+---
+title: "Workshop Logistics Regression with R"
+author: "Vincent"
+date: "24/06/2020"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+# Project presentation
+
+## What needs to be done:
+Using the data from the spam email data file and using logistic regresion, create a predictive model to know if an email is spam or not. Use all the variables. (What are the significant variables and which is their order of importance?)
+
+#### Step 0: Importing libraries / installing packages:
+The following libraries/packages are imported:  
+```{r include=FALSE}
+library(caTools)
+library(questionr)
+library(car)
+```
+* (caTools)  
+* (questionr)  
+* (car)  
+  
+#### Step 1: import the data and read the documentation 
+The dataset has been downloaded of:  
+https://vincentarelbundock.github.io/Rdatasets/datasets.html  
+We used the file called spam7  
+
+We used the following code to assign the file to a variable:
+```{r echo=TRUE}
+spam <- read.csv("~/LEARNING/Ironhack/other documents/R workshop part 2/spam7.csv")
+```
+
+#### Step 2: Exploratory analysis
+Here we did some Exploratory analysis of the dataset:
+```{r echo=TRUE}
+describe(spam)
+```
+
+```{r}
+summary(spam)
+```
+
+```{r}
+str(spam)
+```
+
+#### Step 3: We renamed the column "crl.tot"
+
+```{r echo=TRUE}
+names(spam)[names(spam) == "crl.tot"] <- "lencap"
+```
+
+#### Step 4: Splitting the data into train / test
+Because we have no NA values we can start to split already.  
+We need to use all the variables (see description).  
+We could have plot some things off course (maybe an idea for later).  
+
+We will create three different variables. Two for datasets and third "split":
+
+```{r echo=TRUE}
+split <- sample.split(spam, SplitRatio = 0.8)
+train <- subset(spam, split=="TRUE")
+test <- subset(spam, split=="FALSE")
+```
+
+#### Step 5: Training the model.  
+yesno is the dependant variable and the others are the independant.  
+We need to recode yesno, redo the train / test and then run the model.  
+First recode the output variable (yes/no)
+
+```{r echo=TRUE}
+spam$yesno <- recode(spam$yesno, " 'y'=1; 'n'=0 ")
+```
+
+Then redo the train / test
+
+```{r echo=TRUE}
+train <- subset(spam, split=="TRUE")
+test <- subset(spam, split=="FALSE")
+```
+
+untill here it was data cleaning, all needed before we can make the model, which we do now:
+```{r echo=TRUE}
+mymodel <- glm(yesno ~ lencap+dollar+bang+money+n000+make, data = train, family = "binomial")
+```
+
+then we can have a look at how the model performs:
+```{r echo=TRUE}
+summary(mymodel)
+```
+
+So 'dollar' is the strongest variable, followed by 'n000', then 'money', 'bang' and 'lencap'.  
+The variable 'make' is not significant.
+
+#### Step 6: Running the test data through the model
+Let's make some predictions with this model:
+```{r echo=TRUE}
+res <- predict(mymodel, test, type = "response")
+```
+
+#### Step 7: Creating the confusion matrix to validate the model
+```{r echo=TRUE}
+confmatrix <- table(Actual_value=test$yesno, Predicted_value= res> 0.5)
+confmatrix
+```
+
+#### Step 8: Calculating the accuracy of our model
+
+```{r echo=TRUE}
+(confmatrix[[1,1]]+confmatrix[[2,2]]) / sum(confmatrix)
+```
+
+So we can say with 85% confidence level the model will predict the incoming email correctly as spam. 
+
+#### EXTRA step 9, leave variable 'make' out to see if this has influence of the model.
+
+```{r echo=TRUE}
+mymodel2 <- glm(yesno ~ lencap+dollar+bang+money+n000, data = train, family = "binomial")
+res2 <- predict(mymodel2, test, type = "response")
+confmatrix2 <- table(Actual_value=test$yesno, Predicted_value= res2> 0.5)
+confmatrix2
+(confmatrix2[[1,1]]+confmatrix2[[2,2]]) / sum(confmatrix2)
+```
+Leaving the variable 'make' out does not have an influence on the way the model works.
