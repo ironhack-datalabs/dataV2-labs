@@ -1,26 +1,24 @@
 ![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
 
-# Lab | Reading About Statistic Concepts
-
-## Introduction
-
-In the future, you will need to understand deep statistical concepts by reading technical articles. As a training for that, it is interesting to start from here. Also, as we have limited time, this is a way to have some self guided learning to understand everything better and have a wider knowledge.
-
-This week you will find some questions here that you will need to answer by documentating yourself. So you will do a different PR for each question (you are meant to answer the questions in different days). Don't hesitate to write as many text as you need and push images if you need them.
-
-Remember for this lab: there is a right answer. But there is no perfect way to explain it (except for in a mathematical way, but this is another story).
 
 ## Challenges
 
 ### Challenge 1: What is the difference between expected value and mean?
 You know both concepts but, is there a difference? Are they synonims? Start investigating. 
-
 As a good reference (once you have looked for some information) you have   [this](http://expected.news/value2) article.
+
+Mean is the average of the values, essencially SUM/LEN of a set. Even two numbers can have a mean.
+
+Expected value is the average value of a random variable over a large number of experiments.
+This can be calculated by sum of all possible values multiplied by the outcome of the value.
+
 
 ### Challenge 2: What is the "problem" in science with p-values?
 We have told you that a lot of scientifical investigations are based on p-values. The last week, Nature magazine published [an article](http://nature.social/statistical4) regarding the problem. Start digging on it!
 
 Don't hesitate to use more articles if you want to :)
+
+P values can be interpreted multiple ways. Therefore it isn't always valid for comparing 2 sets of data.
 
 
 ### Challenge 3: Applying testing to a specific case: A/B testing.
@@ -57,8 +55,23 @@ Read more about A/B testing with a couple of examples:
 
 So, take one single example in the articles you just read, which specific test/s would you apply? (We want you just to do a draft and think a little bit how to apply the tests you already know in this case)
 
+## 
+
+
 ## Deliverables
 You need to submit a markdown file with the answers to the questions above. You can create a new `.md` file or directly edit the `README.md`.
 
 ## Submission
 Upon completion, add your deliverables to git. Then commit git and push your branch to the remote.
+
+
+# I hope i understood the task properly...:
+This is similar to train_test_split from scikit learn or to random blind doubletests in medical studies.
+
+The steps are:
+We can check the baseline expected rate of change for pieces of the full set, randomly selected, and count a mean of the change rates.
+Then we can split the data into two pieces, one with the function applied and one without.
+
+Then we can compare the rate of change to the baseline for both groups and see the 'improvement'.
+This always needs to be checked against the unchanged test sample too to see if the baseline change was as expected or not.
+
