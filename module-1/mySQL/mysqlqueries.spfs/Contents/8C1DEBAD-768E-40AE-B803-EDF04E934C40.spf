@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>publications</string>
+			<key>host</key>
+			<string>127.0.0.1</string>
+			<key>name</key>
+			<string>localhost</string>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPTCPIPConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8mb4</string>
+			<key>contentFilterV2</key>
+			<dict>
+				<key>children</key>
+				<array/>
+				<key>filterClass</key>
+				<string>groupNode</string>
+				<key>isConjunction</key>
+				<true/>
+			</dict>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0
+			b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRk
+			YXRhgAGoCwwXGBkaHiVVJG51bGzTDQ4PEBMWV05TLmtleXNaTlMu
+			b2JqZWN0c1YkY2xhc3OiERKAAoADohQVgASABYAHVHR5cGVUcm93
+			c18QHVNlbGVjdGlvbkRldGFpbFR5cGVOU0luZGV4U2V00hsPHB1c
+			TlNSYW5nZUNvdW50EACABtIfICEiWiRjbGFzc25hbWVYJGNsYXNz
+			ZXNaTlNJbmRleFNldKIjJFpOU0luZGV4U2V0WE5TT2JqZWN00h8g
+			JidcTlNEaWN0aW9uYXJ5oiYkAAgAEQAaACQAKQAyADcASQBMAFEA
+			UwBcAGIAaQBxAHwAgwCGAIgAigCNAI8AkQCTAJgAnQC9AMIAzwDR
+			ANMA2ADjAOwA9wD6AQUBDgETASAAAAAAAAACAQAAAAAAAAAoAAAA
+			AAAAAAAAAAAAAAABIw==
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{0, 0}, {1227, 791}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>CREATE TABLE CARS (car_id INT, manufacture VARCHAR(255),
+car_model VARCHAR(255), car_year INT, car_color VARCHAR(255), car_price INT);
+ CREATE TABLE CUSTOMERS (cust_id INT, car_id INT, staff_id INT,cust_nam VARCHAR(255),
+cust_phone INT, cust_mail VARCHAR(255), cust_add VARCHAR(255), cust_city VARCHAR(255), cust_state VARCHAR(255), cust_country VARCHAR(255), cust_zip INT);
+
+CREATE TABLE SALESPERSON (staff_id INT, inv_id INT, staff_name VARCHAR(255), staff_store VARCHAR(255));
+CREATE TABLE INVOICES (inv_id INT, inv_date DATE, car_id INT, cust_id INT, staff_id INT);
+
+DELETE CARS;
+DROP CARS;
+DROP TABLE IF EXISTS CARS;
+CREATE TABLE CARS (car_id INT, manufacture VARCHAR(255),
+car_model VARCHAR(255), car_year INT, car_color VARCHAR(255), car_price INT);
+
+/* INSERT VALUE*/
+
+INSERT INTO CARS (car_id,manufacture,car_model,car_year,car_color,car_price)
+	VALUES (0,'Volkswagen','Tiguan',2019,'Blue',15000);
+
+SELECT * FROM CARS;
+
+INSERT INTO CARS (car_id,manufacture,car_model,car_year,car_color,car_price)
+	VALUES  (1,'Peugeot','Rifter',2019,'Red',6000),(2,'Ford','Fusion',2018,'White',8000), (3,'Toyota','RAV4',2018,'Silver',4000), (4,'Volvo','V60',2019,'Gray',12000), (5,'Volvo','V60Cross Country',2019,'Gray', 13000);
+	
+SELECT * FROM CARS;
+
+INSERT INTO CUSTOMERS (cust_id,cust_nam,cust_phone,cust_add,cust_city,cust_state,cust_country,cust_zip)
+	VALUES (10001,'Pablo Picasso',34636176382,'Paseo de la Chopera,14','Madrid','Madrid','Spain',28045);
+
+SELECT * FROM CUSTOMERS;</string>
+			<key>view</key>
+			<string>SP_VIEW_CUSTOMQUERY</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>214</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>SELECT * FROM CUSTOMERS</string>
+		<string>INSERT INTO CUSTOMERS (cust_id,cust_nam,cust_phone,cust_add,cust_city,cust_state,cust_country,cust_zip)
+	VALUES (10001,'Pablo Picasso',34636176382,'Paseo de la Chopera,14','Madrid','Madrid','Spain',28045)</string>
+		<string>INT</string>
+		<string>INSERT INTO CUSTOMERS (cust_id,cust_nam,cust_phone,cust_maiL,cust_add,cust_city,cust_state,cust_country,cust_zip)
+	VALUES (10001,'Pablo Picasso',34636176382,'Paseo de la Chopera,14','Madrid','Madrid','Spain',28045)</string>
+		<string>SELECT * FROM CARS</string>
+		<string>INSERT INTO CARS (car_id,manufacture,car_model,car_year,car_color,car_price)
+	VALUES  (1,'Peugeot','Rifter',2019,'Red',6000),(2,'Ford','Fusion',2018,'White',8000), (3,'Toyota','RAV4',2018,'Silver',4000), (4,'Volvo','V60',2019,'Gray',12000), (5,'Volvo','V60Cross Country',2019,'Gray', 13000)</string>
+		<string>INSERT INTO CARS (car_id,manufacture,car_model,car_year,car_color,car_price)
+	VALUES  (1,'Peugeot','Rifter',2019,'Red',6000),(2,'Ford','Fusion',2018,'White',8000), (3,'Toyota','RAV4',2018,'Silver',4000), (4,'Volvo','V60',2019,'Gray',12000), (5,'Volvo','V60Cross Country',2019,'Gray')</string>
+		<string>INSERT INTO CARS (car_id,manufacture,car_model,car_year,car_color,car_price)
+	VALUES  (1,'Peugeot','Rifter',2019,'Red',6000),(2,'Ford','Fusion',2018,'White', 8000), (3,'Toyota','RAV4',2018,'Silver', 4000), (4,'Volvo','V60',2019,'Gray',12000), (5,'Volvo','V60Cross Country',2019,'Gray')</string>
+		<string>INSERT INTO CARS (car_id,manufacture,car_model,car_year,car_color,car_price)
+	VALUES  (1,'Peugeot','Rifter',2019,'Red',6000),(2,'Ford','Fusion',2018,'White', 8000), (3,'Toyota','RAV4',2018,'Silver', 4000), (4,'Volvo','V60',2019,'Gray',12000), (5,'Volvo','V60','Cross Country',2019,'Gray')</string>
+		<string>INSERT INTO CARS (car_id,manufacture,car_model,car_year,car_color,car_price)
+	VALUES  (1,'Peugeot','Rifter',2019,'Red',6000),(2,'Ford','Fusion',2018,'White', 8000), (3,'Toyota','RAV4',2018,'Silver', 4000), (4,'Volvo','V60',2019,'Gray',12000), (5,'Volvo','V60',C'ross Country',2019,'Gray')</string>
+		<string>/* INSERT VALUE*/
+
+INSERT INTO CARS (car_id,manufacture,car_model,car_year,car_color,car_price)
+	VALUES (0,'Volkswagen','Tiguan',2019,'Blue',15000)</string>
+		<string>/* INSERT VALUE*/
+
+INSERT INTO CARS (car_id,manufacture,car_model,car_year,car_color,car_price) VALUES ROW(0,1,2,3,4,5), ROW(Volkswagen,Peugeot,Ford,Toyota,Volvo,Volvo), ROW(2019,2019,2018,2018,2019,2019), ROW(blue,red,white,silver,gray,yellow), ROW(8000,7000,12000,4000,10000,9000)</string>
+		<string>/* INSERT VALUE*/
+
+INSERT INTO CARS (car_id,manufacture,car_model,car_year,car_color,car_price) VALUES ROW(0,1,2,3,4,5), ROW(Volkswagen,Peugeot,Ford,Toyota,Volvo,Volvo), (2019,2019,2018,2018,2019,2019), (blue,red,white,silver,gray,yellow), (8000,7000,12000,4000,10000,9000)</string>
+		<string>/* INSERT VALUE*/
+
+INSERT INTO CARS (car_id,manufacture,car_model,car_year,car_color,car_price) VALUES (0,1,2,3,4,5), (Volkswagen,Peugeot,Ford,Toyota,Volvo,Volvo), (2019,2019,2018,2018,2019,2019), (blue,red,white,silver,gray,yellow), (8000,7000,12000,4000,10000,9000)</string>
+		<string>/* INSERT VALUE*/
+
+INSERT INTO CARS (car_id,manufacture,car_model,car_year,car_color,car_price) VALUES (0,1,2,3,4,5),(Volkswagen,Peugeot,Ford,Toyota,Volvo,Volvo), (2019,2019,2018,2018,2019,2019),(blue,red,white,silver,gray,yellow), (8000,7000,12000,4000,10000,9000)</string>
+		<string>/* INSERT VALUE*/
+
+INSERT INTO CARS (car_id,manufacture,car_model,car_year,car_color,car_price)
+    VALUES (0,1,2,3,4,5), (Volkswagen,Peugeot,Ford,Toyota,Volvo,Volvo), (2019,2019,2018,2018,2019,2019),(blue,red,white,silver,gray,yellow), (8000,7000,12000,4000,10000,9000)</string>
+		<string>Volkswagen</string>
+		<string>/* INSERT VALUE*/
+
+INSERT INTO CARS (car_id,manufacture,car_model,car_year,car_color,car_price)
+    VALUES(0,1,2,3,4,5), (Volkswagen,Peugeot,Ford,Toyota,Volvo,Volvo), (2019, 2019,2018,2018,2019,2019),(blue,red,white,silver,gray,yellow), (8000,7000,12000,4000,10000,9000)</string>
+		<string>/* INSERT VALUE*/
+
+INSERT INTO CARS (car_id,manufacture,car_model,car_year,car_color,car_price)
+    VALUES(0,1,2,3,4,5), (Volkswagen,Peugeot,Ford,Toyota,Volvo,Volvo), (2019, 2019,2018,2018,2019,2019), car_color(blue,red,white,silver,gray,yellow), car_price(8000,7000,12000,4000,10000,9000)</string>
+		<string>/* INSERT VALUE*/
+
+INSERT INTO CARS (car_id, manufacture, car_model, car_year, car_color, car_price)
+    VALUES(0,1,2,3,4,5), (Volkswagen, Peugeot, Ford, Toyota, Volvo, Volvo), (2019, 2019, 2018, 2018, 2019, 2019), car_color('blue', 'red', 'white', 'silver', 'gray,' 'yellow'), car_price(8000, 7000, 12000, 4000, 10000, 9000)</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>8.0.19</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>

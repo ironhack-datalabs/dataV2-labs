@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>auto_connect</key>
+	<true/>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection bundle</string>
+	<key>include_session</key>
+	<true/>
+	<key>save_editor_content</key>
+	<true/>
+	<key>save_password</key>
+	<false/>
+	<key>version</key>
+	<integer>1</integer>
+	<key>windows</key>
+	<array>
+		<dict>
+			<key>frame</key>
+			<string>{{61, 176}, {1228, 621}}</string>
+			<key>selectedTabIndex</key>
+			<integer>0</integer>
+			<key>tabs</key>
+			<array>
+				<dict>
+					<key>isAbsolutePath</key>
+					<false/>
+					<key>path</key>
+					<string>8C1DEBAD-768E-40AE-B803-EDF04E934C40.spf</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
