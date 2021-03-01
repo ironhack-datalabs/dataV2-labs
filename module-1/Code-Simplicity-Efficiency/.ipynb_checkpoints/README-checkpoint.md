@@ -1,4 +1,4 @@
-https://github.com/ironhack-datalabs/dataV2-labs/tree/master/module-1/Code-Simplicity-Efficiency![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
+![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
 
 # Lab | Code Simplicity and Efficiency
 
