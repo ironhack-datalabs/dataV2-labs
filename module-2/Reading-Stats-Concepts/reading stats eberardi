@@ -6,7 +6,7 @@
 ### Challenge 1: What is the difference between expected value and mean?
  
 
-Very often these two terms (mean and expected value) are used interchangably.  However, I do not consider them synonyms.
+Very often these two terms (mean and expected value) are used interchangeably.  However, I do not consider them synonyms.
 There is a difference between the two.  
 In a nutshell, the mean value is derived from a practical approach to real-life data.  This will result in a frequency distribution and a mean value.
 Alternately, an expected value is derived from a theoretical approach to samples that have not been physically counted but follow probability theory.  These data sets will result in a probability distribution and an expected value.
