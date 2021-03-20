@@ -6,9 +6,7 @@ the strings being generated.
 The code is functional but has a lot of room for improvement. Use what you have learned
 about simple and efficient code, refactor the code.
 """
-import random
-import sys
-import string
+import random, sys, string
 
 stringList = string.ascii_lowercase + string.digits
 
