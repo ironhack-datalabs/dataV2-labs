@@ -1,5 +1,4 @@
->>> badges = SITE.fetch('badges', ids=[222, 1306, 99999])
->>> badges![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
+![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
 
 # Lab | API Scavenger Game
 
