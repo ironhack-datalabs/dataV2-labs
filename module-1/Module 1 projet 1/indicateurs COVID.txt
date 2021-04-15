@@ -1,0 +1,36 @@
+1. Activité épidémique (taux d'incidence)
+
+Le taux d'incidence correspond au nombre de tests virologiques positifs pour 100.000 habitants sur une semaine. Il est calculé, à l'échelle départementale, de la manière suivante : (100000*nombre de cas positif)/population.
+
+Trois niveaux ont été fixés pour cet indicateur :
+
+vert : en dessous de 10 personnes testées positives sur 100.000 personnes testées, sur une semaine glissante ;
+orange : au-delà de 10 personnes testées positives sur 100.000 personnes testées, sur une semaine glissante ;
+rouge : au-delà de 50 personnes testées positives sur 100.000 personnes testées, sur une semaine glissante.
+2. Taux de positivité des tests virologiques
+
+Le taux de positivité correspond au nombre de personnes testées positives sur une semaine. Il est calculé, à l'échelle départementale, de la manière suivante : (100*nombre de tests positifs)/nombre de tests réalisés.
+
+Trois niveaux ont été fixés pour cet indicateur :
+
+vert : taux de positivité entre 0 et 5% ;
+orange : taux de positivité entre 5 et 10% ;
+rouge : taux de positivité supérieur à 10%.
+3. Facteur de reproduction du virus (évolution du R0)
+
+Nombre de personnes contaminées par chaque malade. Cet indicateur est calculé à l'échelle régionale.
+
+Trois niveaux ont été fixés pour cet indicateur :
+
+Vert : R0 entre 0 et 1 ;
+Orange : R0 entre 1 et 1,5 ;
+Rouge : R0 supérieur à 1,5.
+4. Tension hospitalière sur la capacité en réanimation
+
+Taux d’occupation des lits en réanimation/SI/SC par des patients COVID par rapport à la capacité initiale en réanimation/SI/SC. Cet indicateur est calculé à l'échelle régionale.
+
+Trois niveaux ont été fixés pour cet indicateur :
+
+Vert : taux d’occupation compris entre 0 et 40% ;
+Orange : taux d’occupation compris entre 40 et 60% ;
+Rouge : taux d'occupation supérieur à 60%.
