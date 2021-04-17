@@ -1,0 +1,24 @@
+Les solution listées en restant sur le même fichier: 
+
+1/ echo 'Hello World'
+2/ mkdir new_dir
+3/ rm -rf
+4/ cp ./lorem/sed.txt ./lorem-copy
+5/ cp ./lorem/*.txt .lorem-copy/
+6/ cat ./lorem/sed.txt
+7/ cat ./lorem/at.txt
+8/ cat ./lorem/lorem.txt
+9/ head -3 ./lorem-copy/sed.txt
+10/ tail -3 ./lorem-copy/sed.txt
+11/ echo $'\nhomo homini lupus'>> ./lorem_copy/sed.txt
+12/sed -i -e "s/et/ET/g" ./lorem-copy/at.txt
+13/ whoami
+14/ echo $user
+15/ pwd
+16/ ls | grep.txt
+17/ wc -l ./lorem/sed.txt
+18/ find . -name "lorem*" | wc -l
+19/ grep -o "et" at.txt | wc -l (-o = only matching)
+20/ grep -o -r 'et' ./*.txt | wc -l
+
+pipe = donne ce que t'as a gauche 

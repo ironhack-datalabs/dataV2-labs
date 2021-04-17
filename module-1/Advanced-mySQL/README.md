@@ -110,3 +110,6 @@ To balance the performance of database transactions and the timeliness of the da
 [MySQL Reference: Derived Tables](https://dev.mysql.com/doc/refman/8.0/en/derived-tables.html)
 
 [Which one have better performance : Derived Tables or Temporary Tables](https://stackoverflow.com/questions/2326395/which-one-have-better-performance-derived-tables-or-temporary-tables)
+
+
+

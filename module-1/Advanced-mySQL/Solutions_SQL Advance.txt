@@ -1,0 +1,90 @@
+
+## Défi 1 - Most Profiting Author
+
+###Étape 1: Calculez la redevance de chaque vente pour chaque auteur et l'avance pour chaque auteur et publication####
+
+SELECT titleauthor.au_id, titles.title_id, (titles.price * sales.qty * titles.royalty / 100 * titleauthor.royaltyper) / 100 AS Royaltyval, (titles.advance * titleauthor.royaltyper / 100) AS AdvanceVAL
+FROM titles
+INNER JOIN sales
+ON titles.title_id = sales.title_id
+INNER JOIN titleauthor
+ON titles.title_id = titleauthor.title_id
+
+
+
+
+###Étape 2: agréger le total des redevances pour chaque titre et auteur###
+
+SELECT au_id, title_id, AdvanceVAL, SUM(Royaltyval) AS Agg_Royalties
+
+FROM (
+SELECT titleauthor.au_id, titles.title_id, (titles.price * sales.qty * titles.royalty / 100 * titleauthor.royaltyper) / 100 AS Royaltyval, (titles.advance * titleauthor.royaltyper / 100) AS AdvanceVAL
+FROM titles
+INNER JOIN sales
+ON titles.title_id = sales.title_id
+INNER JOIN titleauthor
+ON titles.title_id = titleauthor.title_id
+) summary
+
+GROUP BY au_id, title_id
+
+
+
+
+###Étape 3: Calculez les bénéfices totaux de chaque auteur###
+
+SELECT au_id, (AdvanceVAL+Agg_Royalties) AS Total
+
+FROM (
+SELECT au_id, title_id, AdvanceVAL, SUM(Royaltyval) AS Agg_Royalties
+
+FROM (
+SELECT titleauthor.au_id, titles.title_id, (titles.price * sales.qty * titles.royalty / 100 * titleauthor.royaltyper) / 100 AS Royaltyval, (titles.advance * titleauthor.royaltyper / 100) AS AdvanceVAL
+FROM titles
+INNER JOIN sales
+ON titles.title_id = sales.title_id
+INNER JOIN titleauthor
+ON titles.title_id = titleauthor.title_id
+) summary
+
+GROUP BY au_id, title_id
+) summary2
+
+INNER JOIN titles ON summary2.title_id = titles.title_id
+GROUP BY au_id
+
+#entre parenthèse : toute notre requête précédente summary
+
+
+
+###Défi 2 - Solution alternative
+Créer des tables temporaires MySQL et interroger les tables temporaires dans les étapes suivantes.###
+
+# TABLE SUMMARY :
+
+CREATE TEMPORARY TABLE publications.store_sales_summary
+SELECT titleauthor.au_id, titles.title_id, (titles.price * sales.qty * titles.royalty / 100 * titleauthor.royaltyper) / 100 AS Royaltyval, (titles.advance * titleauthor.royaltyper / 100) AS AdvanceVAL
+FROM titles
+INNER JOIN sales
+ON titles.title_id = sales.title_id
+INNER JOIN titleauthor
+ON titles.title_id = titleauthor.title_id;
+
+SELECT *
+FROM publications.store_sales_summary;
+
+
+
+###Défi 3
+En partant de votre solution dans les défis 1 et 2, créez une table permanente nommée most_profiting_authorspour contenir les données sur les auteurs les plus rentables. Le tableau doit avoir 2 colonnes:###
+
+# APPEL DE LA TABLE TEMPORAIRE SUMMARY :
+
+CREATE TABLE most_profiting_authors
+SELECT au_id, (AdvanceVAL+SUM(Royaltyval)) AS Profit
+FROM publications.store_sales_summary
+GROUP BY au_id
+ORDER BY Profit DESC LIMIT 3;
+
+SELECT *
+FROM most_profiting_authors
