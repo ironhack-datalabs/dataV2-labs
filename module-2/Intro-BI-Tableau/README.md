@@ -40,7 +40,7 @@ To complete this lab, follow each of the steps below.
 
 ## Submission
 
-Upon completion, add your deliverables to git. Then commit git and push your branch to the remote.
+https://public.tableau.com/views/IronHackLiquorstoreSales/SalesbyQuarter?:language=en&:display_count=y&:origin=viz_share_link
 
 ## Resources
 
