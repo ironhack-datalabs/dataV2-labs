@@ -36,4 +36,4 @@ There is a lot of countries, with a lot of crops type and the legend was general
 
 [Repository](https://github.com/screamzz/dataV2-labs/tree/master/module-2/Data%20Viz%20Project/)  
 
-
+[Slides](https://docs.google.com/presentation/d/1lPHTSYeQsdkTN2FaC32gfcpgSeDfV2pmtyxKR7aQ9XU/edit?usp=sharing)
