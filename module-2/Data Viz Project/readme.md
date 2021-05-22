@@ -34,6 +34,6 @@ There is a lot of countries, with a lot of crops type and the legend was general
 
 ## Links
 
-[Repository](https://github.com/screamzz/DataSets-SQL-API/)  
+[Repository](https://github.com/screamzz/dataV2-labs/tree/master/module-2/Data%20Viz%20Project/)  
 
 
