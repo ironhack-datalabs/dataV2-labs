@@ -1,0 +1,902 @@
+,Area,Item,Element,Year,Months,Unit,Value
+0,Austria,Apples,Producer Price (USD/tonne),2008,Annual value,USD,732.4
+1,Austria,Apples,Producer Price (USD/tonne),2009,Annual value,USD,500.1
+2,Austria,Apples,Producer Price (USD/tonne),2010,Annual value,USD,445.0
+3,Austria,Apples,Producer Price (USD/tonne),2011,Annual value,USD,635.3
+4,Austria,Apples,Producer Price (USD/tonne),2012,Annual value,USD,560.2
+5,Austria,Apples,Producer Price (USD/tonne),2013,Annual value,USD,710.3
+6,Austria,Apples,Producer Price (USD/tonne),2014,Annual value,USD,528.0
+7,Austria,Apples,Producer Price (USD/tonne),2015,Annual value,USD,432.5
+8,Austria,Apples,Producer Price (USD/tonne),2016,Annual value,USD,386.0
+9,Austria,Apples,Producer Price (USD/tonne),2017,Annual value,USD,635.6
+10,Austria,Apples,Producer Price (USD/tonne),2018,Annual value,USD,707.0
+11,Austria,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,615.2
+12,Austria,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,598.7
+13,Austria,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,680.8
+14,Austria,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,613.0
+15,Austria,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,621.9
+16,Austria,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,743.5
+17,Austria,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,631.5
+18,Austria,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,616.6
+19,Austria,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,618.3
+20,Austria,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,563.4
+21,Austria,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,655.1
+22,Austria,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,2978.0
+23,Austria,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,2790.9
+24,Austria,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,2666.1
+25,Austria,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,2865.1
+26,Austria,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,2793.3
+27,Austria,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,3117.5
+28,Austria,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,3101.9
+29,Austria,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,2343.5
+30,Austria,"Meat, chicken",Producer Price (USD/tonne),2016,Annual value,USD,2313.0
+31,Austria,"Meat, chicken",Producer Price (USD/tonne),2017,Annual value,USD,2345.1
+32,Austria,"Meat, chicken",Producer Price (USD/tonne),2018,Annual value,USD,3224.8
+33,Austria,Soybeans,Producer Price (USD/tonne),2008,Annual value,USD,480.5
+34,Austria,Soybeans,Producer Price (USD/tonne),2009,Annual value,USD,377.9
+35,Austria,Soybeans,Producer Price (USD/tonne),2010,Annual value,USD,427.8
+36,Austria,Soybeans,Producer Price (USD/tonne),2011,Annual value,USD,481.0
+37,Austria,Soybeans,Producer Price (USD/tonne),2012,Annual value,USD,600.0
+38,Austria,Soybeans,Producer Price (USD/tonne),2013,Annual value,USD,523.1
+39,Austria,Soybeans,Producer Price (USD/tonne),2014,Annual value,USD,460.4
+40,Austria,Soybeans,Producer Price (USD/tonne),2015,Annual value,USD,353.8
+41,Austria,Soybeans,Producer Price (USD/tonne),2016,Annual value,USD,368.3
+42,Austria,Soybeans,Producer Price (USD/tonne),2017,Annual value,USD,388.8
+43,Austria,Soybeans,Producer Price (USD/tonne),2018,Annual value,USD,403.7
+44,Belgium,Apples,Producer Price (USD/tonne),2008,Annual value,USD,801.7
+45,Belgium,Apples,Producer Price (USD/tonne),2009,Annual value,USD,492.7
+46,Belgium,Apples,Producer Price (USD/tonne),2010,Annual value,USD,501.2
+47,Belgium,Apples,Producer Price (USD/tonne),2011,Annual value,USD,722.0
+48,Belgium,Apples,Producer Price (USD/tonne),2012,Annual value,USD,654.2
+49,Belgium,Apples,Producer Price (USD/tonne),2013,Annual value,USD,815.6
+50,Belgium,Apples,Producer Price (USD/tonne),2014,Annual value,USD,622.3
+51,Belgium,Apples,Producer Price (USD/tonne),2015,Annual value,USD,437.2
+52,Belgium,Apples,Producer Price (USD/tonne),2016,Annual value,USD,395.8
+53,Belgium,Apples,Producer Price (USD/tonne),2017,Annual value,USD,559.1
+54,Belgium,Apples,Producer Price (USD/tonne),2018,Annual value,USD,822.9
+55,Belgium,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,388.0
+56,Belgium,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,379.4
+57,Belgium,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,433.0
+58,Belgium,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,276.6
+59,Belgium,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,364.4
+60,Belgium,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,424.3
+61,Belgium,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,304.8
+62,Belgium,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,362.5
+63,Belgium,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,354.1
+64,Belgium,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,269.4
+65,Belgium,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,416.1
+66,Belgium,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,1809.3
+67,Belgium,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,1588.7
+68,Belgium,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1586.0
+69,Belgium,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,1800.0
+70,Belgium,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,1652.3
+71,Belgium,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,1750.2
+72,Belgium,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,1692.5
+73,Belgium,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,1383.9
+74,Belgium,"Meat, chicken",Producer Price (USD/tonne),2016,Annual value,USD,1324.5
+75,Belgium,"Meat, chicken",Producer Price (USD/tonne),2017,Annual value,USD,1346.3
+76,Belgium,"Meat, chicken",Producer Price (USD/tonne),2018,Annual value,USD,1430.0
+77,Bulgaria,Apples,Producer Price (USD/tonne),2008,Annual value,USD,795.0
+78,Bulgaria,Apples,Producer Price (USD/tonne),2009,Annual value,USD,502.6
+79,Bulgaria,Apples,Producer Price (USD/tonne),2010,Annual value,USD,549.6
+80,Bulgaria,Apples,Producer Price (USD/tonne),2011,Annual value,USD,425.6
+81,Bulgaria,Apples,Producer Price (USD/tonne),2012,Annual value,USD,340.3
+82,Bulgaria,Apples,Producer Price (USD/tonne),2013,Annual value,USD,354.2
+83,Bulgaria,Apples,Producer Price (USD/tonne),2014,Annual value,USD,300.5
+84,Bulgaria,Apples,Producer Price (USD/tonne),2015,Annual value,USD,265.2
+85,Bulgaria,Apples,Producer Price (USD/tonne),2016,Annual value,USD,250.9
+86,Bulgaria,Apples,Producer Price (USD/tonne),2017,Annual value,USD,280.5
+87,Bulgaria,Apples,Producer Price (USD/tonne),2018,Annual value,USD,332.3
+88,Bulgaria,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,821.9
+89,Bulgaria,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,799.0
+90,Bulgaria,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,784.5
+91,Bulgaria,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,637.9
+92,Bulgaria,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,560.4
+93,Bulgaria,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,1039.0
+94,Bulgaria,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,759.5
+95,Bulgaria,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,689.5
+96,Bulgaria,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,574.5
+97,Bulgaria,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,533.1
+98,Bulgaria,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,765.5
+99,Bulgaria,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,2128.3
+100,Bulgaria,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,1837.4
+101,Bulgaria,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1700.6
+102,Bulgaria,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,1858.1
+103,Bulgaria,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,1798.6
+104,Bulgaria,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,2152.7
+105,Bulgaria,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,1891.8
+106,Bulgaria,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,1588.2
+107,Bulgaria,"Meat, chicken",Producer Price (USD/tonne),2016,Annual value,USD,1484.7
+108,Bulgaria,"Meat, chicken",Producer Price (USD/tonne),2017,Annual value,USD,929.8
+109,Bulgaria,Soybeans,Producer Price (USD/tonne),2008,Annual value,USD,524.3
+110,Bulgaria,Soybeans,Producer Price (USD/tonne),2009,Annual value,USD,583.6
+111,Bulgaria,Soybeans,Producer Price (USD/tonne),2010,Annual value,USD,486.0
+112,Bulgaria,Soybeans,Producer Price (USD/tonne),2011,Annual value,USD,437.8
+113,Bulgaria,Soybeans,Producer Price (USD/tonne),2012,Annual value,USD,646.5
+114,Bulgaria,Soybeans,Producer Price (USD/tonne),2013,Annual value,USD,867.3
+115,Bulgaria,Soybeans,Producer Price (USD/tonne),2014,Annual value,USD,818.8
+116,Bulgaria,Soybeans,Producer Price (USD/tonne),2015,Annual value,USD,536.9
+117,Bulgaria,Soybeans,Producer Price (USD/tonne),2016,Annual value,USD,406.1
+118,Bulgaria,Soybeans,Producer Price (USD/tonne),2017,Annual value,USD,364.9
+119,Bulgaria,Soybeans,Producer Price (USD/tonne),2018,Annual value,USD,392.7
+120,Croatia,Apples,Producer Price (USD/tonne),2008,Annual value,USD,472.1
+121,Croatia,Apples,Producer Price (USD/tonne),2009,Annual value,USD,343.9
+122,Croatia,Apples,Producer Price (USD/tonne),2010,Annual value,USD,323.8
+123,Croatia,Apples,Producer Price (USD/tonne),2011,Annual value,USD,348.1
+124,Croatia,Apples,Producer Price (USD/tonne),2012,Annual value,USD,411.9
+125,Croatia,Apples,Producer Price (USD/tonne),2013,Annual value,USD,270.9
+126,Croatia,Apples,Producer Price (USD/tonne),2014,Annual value,USD,240.9
+127,Croatia,Apples,Producer Price (USD/tonne),2015,Annual value,USD,243.4
+128,Croatia,Apples,Producer Price (USD/tonne),2016,Annual value,USD,329.3
+129,Croatia,Apples,Producer Price (USD/tonne),2017,Annual value,USD,364.5
+130,Croatia,Apples,Producer Price (USD/tonne),2018,Annual value,USD,264.7
+131,Croatia,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,684.9
+132,Croatia,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,616.0
+133,Croatia,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,706.6
+134,Croatia,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,593.8
+135,Croatia,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,654.7
+136,Croatia,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,685.4
+137,Croatia,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,632.6
+138,Croatia,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,613.0
+139,Croatia,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,639.1
+140,Croatia,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,642.4
+141,Croatia,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,565.6
+142,Croatia,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,2067.4
+143,Croatia,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,1869.5
+144,Croatia,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1779.5
+145,Croatia,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,1909.2
+146,Croatia,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,1806.8
+147,Croatia,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,1864.2
+148,Croatia,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,1762.4
+149,Croatia,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,1454.3
+150,Croatia,Soybeans,Producer Price (USD/tonne),2008,Annual value,USD,520.2
+151,Croatia,Soybeans,Producer Price (USD/tonne),2009,Annual value,USD,384.2
+152,Croatia,Soybeans,Producer Price (USD/tonne),2010,Annual value,USD,417.1
+153,Croatia,Soybeans,Producer Price (USD/tonne),2011,Annual value,USD,455.7
+154,Croatia,Soybeans,Producer Price (USD/tonne),2012,Annual value,USD,604.2
+155,Croatia,Soybeans,Producer Price (USD/tonne),2013,Annual value,USD,529.8
+156,Croatia,Soybeans,Producer Price (USD/tonne),2014,Annual value,USD,407.4
+157,Croatia,Soybeans,Producer Price (USD/tonne),2015,Annual value,USD,350.8
+158,Croatia,Soybeans,Producer Price (USD/tonne),2016,Annual value,USD,341.9
+159,Croatia,Soybeans,Producer Price (USD/tonne),2017,Annual value,USD,403.9
+160,Croatia,Soybeans,Producer Price (USD/tonne),2018,Annual value,USD,358.4
+161,Cyprus,Apples,Producer Price (USD/tonne),2008,Annual value,USD,1009.3
+162,Cyprus,Apples,Producer Price (USD/tonne),2009,Annual value,USD,1040.5
+163,Cyprus,Apples,Producer Price (USD/tonne),2010,Annual value,USD,913.9
+164,Cyprus,Apples,Producer Price (USD/tonne),2011,Annual value,USD,717.3
+165,Cyprus,Apples,Producer Price (USD/tonne),2012,Annual value,USD,674.6
+166,Cyprus,Apples,Producer Price (USD/tonne),2013,Annual value,USD,906.8
+167,Cyprus,Apples,Producer Price (USD/tonne),2014,Annual value,USD,951.3
+168,Cyprus,Apples,Producer Price (USD/tonne),2015,Annual value,USD,779.7
+169,Cyprus,Apples,Producer Price (USD/tonne),2016,Annual value,USD,766.6
+170,Cyprus,Apples,Producer Price (USD/tonne),2017,Annual value,USD,901.5
+171,Cyprus,Apples,Producer Price (USD/tonne),2018,Annual value,USD,1070.6
+172,Cyprus,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,1142.6
+173,Cyprus,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,1139.1
+174,Cyprus,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,1165.5
+175,Cyprus,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,1082.9
+176,Cyprus,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,1061.3
+177,Cyprus,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,1052.9
+178,Cyprus,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,894.2
+179,Cyprus,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,685.4
+180,Cyprus,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,677.0
+181,Cyprus,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,901.5
+182,Cyprus,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,885.3
+183,Cyprus,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,3672.3
+184,Cyprus,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,3456.3
+185,Cyprus,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,3458.1
+186,Cyprus,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,3500.4
+187,Cyprus,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,3246.8
+188,Cyprus,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,3456.1
+189,Cyprus,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,3427.0
+190,Cyprus,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,2834.8
+191,Cyprus,"Meat, chicken",Producer Price (USD/tonne),2016,Annual value,USD,2811.8
+192,Cyprus,"Meat, chicken",Producer Price (USD/tonne),2017,Annual value,USD,2862.3
+193,Cyprus,"Meat, chicken",Producer Price (USD/tonne),2018,Annual value,USD,2971.0
+194,Czechia,Apples,Producer Price (USD/tonne),2008,Annual value,USD,234.6
+195,Czechia,Apples,Producer Price (USD/tonne),2009,Annual value,USD,156.5
+196,Czechia,Apples,Producer Price (USD/tonne),2010,Annual value,USD,220.2
+197,Czechia,Apples,Producer Price (USD/tonne),2011,Annual value,USD,271.6
+198,Czechia,Apples,Producer Price (USD/tonne),2012,Annual value,USD,247.3
+199,Czechia,Apples,Producer Price (USD/tonne),2013,Annual value,USD,367.8
+200,Czechia,Apples,Producer Price (USD/tonne),2014,Annual value,USD,350.7
+201,Czechia,Apples,Producer Price (USD/tonne),2015,Annual value,USD,270.3
+202,Czechia,Apples,Producer Price (USD/tonne),2016,Annual value,USD,267.9
+203,Czechia,Apples,Producer Price (USD/tonne),2017,Annual value,USD,399.8
+204,Czechia,Apples,Producer Price (USD/tonne),2018,Annual value,USD,351.8
+205,Czechia,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,1121.4
+206,Czechia,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,930.8
+207,Czechia,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,981.6
+208,Czechia,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,1061.5
+209,Czechia,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,920.6
+210,Czechia,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,785.1
+211,Czechia,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,740.2
+212,Czechia,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,802.7
+213,Czechia,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,817.1
+214,Czechia,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,794.9
+215,Czechia,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,1050.9
+216,Czechia,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,1782.2
+217,Czechia,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,1445.0
+218,Czechia,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1422.5
+219,Czechia,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,1666.0
+220,Czechia,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,1572.1
+221,Czechia,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,1685.7
+222,Czechia,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,1532.6
+223,Czechia,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,1286.4
+224,Denmark,Apples,Producer Price (USD/tonne),2008,Annual value,USD,613.0
+225,Denmark,Apples,Producer Price (USD/tonne),2009,Annual value,USD,519.7
+226,Denmark,Apples,Producer Price (USD/tonne),2010,Annual value,USD,523.6
+227,Denmark,Apples,Producer Price (USD/tonne),2011,Annual value,USD,635.7
+228,Denmark,Apples,Producer Price (USD/tonne),2012,Annual value,USD,656.4
+229,Denmark,Apples,Producer Price (USD/tonne),2013,Annual value,USD,626.7
+230,Denmark,Apples,Producer Price (USD/tonne),2014,Annual value,USD,780.4
+231,Denmark,Apples,Producer Price (USD/tonne),2015,Annual value,USD,511.7
+232,Denmark,Apples,Producer Price (USD/tonne),2016,Annual value,USD,464.8
+233,Denmark,Apples,Producer Price (USD/tonne),2017,Annual value,USD,491.5
+234,Denmark,Apples,Producer Price (USD/tonne),2018,Annual value,USD,549.5
+235,Denmark,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,1461.9
+236,Denmark,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,1601.2
+237,Denmark,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,1505.7
+238,Denmark,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,1625.9
+239,Denmark,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,1512.0
+240,Denmark,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,1564.5
+241,Denmark,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,1327.4
+242,Denmark,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,1382.0
+243,Denmark,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,1558.1
+244,Denmark,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,1582.0
+245,Denmark,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,1734.1
+246,Denmark,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,1544.1
+247,Denmark,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,1328.7
+248,Denmark,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1246.4
+249,Denmark,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,1531.8
+250,Denmark,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,1467.8
+251,Denmark,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,1662.7
+252,Denmark,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,1663.8
+253,Denmark,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,1188.2
+254,Denmark,"Meat, chicken",Producer Price (USD/tonne),2016,Annual value,USD,1192.9
+255,Denmark,"Meat, chicken",Producer Price (USD/tonne),2017,Annual value,USD,1181.8
+256,Denmark,"Meat, chicken",Producer Price (USD/tonne),2018,Annual value,USD,1297.3
+257,Estonia,Apples,Producer Price (USD/tonne),2008,Annual value,USD,469.0
+258,Estonia,Apples,Producer Price (USD/tonne),2009,Annual value,USD,425.6
+259,Estonia,Apples,Producer Price (USD/tonne),2010,Annual value,USD,502.0
+260,Estonia,Apples,Producer Price (USD/tonne),2011,Annual value,USD,422.9
+261,Estonia,Apples,Producer Price (USD/tonne),2012,Annual value,USD,368.3
+262,Estonia,Apples,Producer Price (USD/tonne),2013,Annual value,USD,376.9
+263,Estonia,Apples,Producer Price (USD/tonne),2014,Annual value,USD,447.3
+264,Estonia,Apples,Producer Price (USD/tonne),2015,Annual value,USD,348.5
+265,Estonia,Apples,Producer Price (USD/tonne),2016,Annual value,USD,346.1
+266,Estonia,Apples,Producer Price (USD/tonne),2017,Annual value,USD,350.2
+267,Estonia,Apples,Producer Price (USD/tonne),2018,Annual value,USD,394.1
+268,Estonia,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,1398.1
+269,Estonia,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,912.1
+270,Estonia,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,1100.9
+271,Estonia,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,1272.1
+272,Estonia,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,933.6
+273,Estonia,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,1052.9
+274,Estonia,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,875.5
+275,Estonia,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,850.6
+276,Estonia,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,2468.5
+277,Estonia,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,1960.0
+278,Estonia,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1667.8
+279,Estonia,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,1846.7
+280,Estonia,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,1749.7
+281,Estonia,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,2010.8
+282,Estonia,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,1952.2
+283,Estonia,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,1771.4
+284,Estonia,"Meat, chicken",Producer Price (USD/tonne),2016,Annual value,USD,1784.1
+285,Estonia,"Meat, chicken",Producer Price (USD/tonne),2017,Annual value,USD,1638.5
+286,Estonia,"Meat, chicken",Producer Price (USD/tonne),2018,Annual value,USD,1553.1
+287,Finland,Apples,Producer Price (USD/tonne),2008,Annual value,USD,1876.4
+288,Finland,Apples,Producer Price (USD/tonne),2009,Annual value,USD,1667.0
+289,Finland,Apples,Producer Price (USD/tonne),2010,Annual value,USD,1954.9
+290,Finland,Apples,Producer Price (USD/tonne),2011,Annual value,USD,2204.8
+291,Finland,Apples,Producer Price (USD/tonne),2012,Annual value,USD,2018.5
+292,Finland,Apples,Producer Price (USD/tonne),2013,Annual value,USD,2209.4
+293,Finland,Apples,Producer Price (USD/tonne),2014,Annual value,USD,2125.4
+294,Finland,Apples,Producer Price (USD/tonne),2015,Annual value,USD,1815.5
+295,Finland,Apples,Producer Price (USD/tonne),2016,Annual value,USD,1622.7
+296,Finland,Apples,Producer Price (USD/tonne),2017,Annual value,USD,1848.1
+297,Finland,Apples,Producer Price (USD/tonne),2018,Annual value,USD,1744.6
+298,Finland,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,1768.0
+299,Finland,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,1686.5
+300,Finland,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,1679.4
+301,Finland,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,1753.0
+302,Finland,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,1803.9
+303,Finland,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,1977.0
+304,Finland,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,1832.2
+305,Finland,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,1470.6
+306,Finland,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,1609.5
+307,Finland,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,1519.0
+308,Finland,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,1945.3
+309,Finland,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,1904.3
+310,Finland,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,1722.6
+311,Finland,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1589.3
+312,Finland,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,1821.1
+313,Finland,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,1786.0
+314,Finland,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,2007.5
+315,Finland,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,1930.4
+316,Finland,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,1503.9
+317,Finland,"Meat, chicken",Producer Price (USD/tonne),2016,Annual value,USD,1452.4
+318,Finland,"Meat, chicken",Producer Price (USD/tonne),2017,Annual value,USD,1457.1
+319,Finland,"Meat, chicken",Producer Price (USD/tonne),2018,Annual value,USD,1554.6
+320,France,Apples,Producer Price (USD/tonne),2008,Annual value,USD,707.1
+321,France,Apples,Producer Price (USD/tonne),2009,Annual value,USD,574.4
+322,France,Apples,Producer Price (USD/tonne),2010,Annual value,USD,639.9
+323,France,Apples,Producer Price (USD/tonne),2011,Annual value,USD,616.2
+324,France,Apples,Producer Price (USD/tonne),2012,Annual value,USD,837.3
+325,France,Apples,Producer Price (USD/tonne),2013,Annual value,USD,831.8
+326,France,Apples,Producer Price (USD/tonne),2014,Annual value,USD,691.2
+327,France,Apples,Producer Price (USD/tonne),2015,Annual value,USD,628.8
+328,France,Apples,Producer Price (USD/tonne),2016,Annual value,USD,664.1
+329,France,Apples,Producer Price (USD/tonne),2017,Annual value,USD,661.6
+330,France,Apples,Producer Price (USD/tonne),2018,Annual value,USD,763.2
+331,France,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,1091.2
+332,France,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,927.5
+333,France,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,954.9
+334,France,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,820.3
+335,France,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,905.9
+336,France,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,1032.0
+337,France,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,890.7
+338,France,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,815.9
+339,France,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,855.7
+340,France,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,793.9
+341,France,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,951.7
+342,France,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,2215.1
+343,France,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,1932.6
+344,France,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1847.1
+345,France,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,2193.1
+346,France,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,2068.3
+347,France,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,2265.9
+348,France,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,2107.6
+349,France,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,1705.4
+350,France,"Meat, chicken",Producer Price (USD/tonne),2016,Annual value,USD,1684.4
+351,France,"Meat, chicken",Producer Price (USD/tonne),2017,Annual value,USD,1701.5
+352,France,"Meat, chicken",Producer Price (USD/tonne),2018,Annual value,USD,1777.1
+353,France,Soybeans,Producer Price (USD/tonne),2008,Annual value,USD,568.7
+354,France,Soybeans,Producer Price (USD/tonne),2009,Annual value,USD,447.2
+355,France,Soybeans,Producer Price (USD/tonne),2010,Annual value,USD,552.1
+356,France,Soybeans,Producer Price (USD/tonne),2011,Annual value,USD,504.9
+357,France,Soybeans,Producer Price (USD/tonne),2012,Annual value,USD,595.9
+358,France,Soybeans,Producer Price (USD/tonne),2013,Annual value,USD,590.9
+359,France,Soybeans,Producer Price (USD/tonne),2014,Annual value,USD,475.7
+360,France,Soybeans,Producer Price (USD/tonne),2015,Annual value,USD,385.3
+361,France,Soybeans,Producer Price (USD/tonne),2016,Annual value,USD,380.2
+362,France,Soybeans,Producer Price (USD/tonne),2017,Annual value,USD,390.9
+363,France,Soybeans,Producer Price (USD/tonne),2018,Annual value,USD,383.7
+364,Germany,Apples,Producer Price (USD/tonne),2008,Annual value,USD,742.7
+365,Germany,Apples,Producer Price (USD/tonne),2009,Annual value,USD,529.3
+366,Germany,Apples,Producer Price (USD/tonne),2010,Annual value,USD,535.1
+367,Germany,Apples,Producer Price (USD/tonne),2011,Annual value,USD,683.9
+368,Germany,Apples,Producer Price (USD/tonne),2012,Annual value,USD,609.0
+369,Germany,Apples,Producer Price (USD/tonne),2013,Annual value,USD,794.0
+370,Germany,Apples,Producer Price (USD/tonne),2014,Annual value,USD,598.4
+371,Germany,Apples,Producer Price (USD/tonne),2015,Annual value,USD,448.1
+372,Germany,Apples,Producer Price (USD/tonne),2016,Annual value,USD,495.6
+373,Germany,Apples,Producer Price (USD/tonne),2017,Annual value,USD,629.9
+374,Germany,Apples,Producer Price (USD/tonne),2018,Annual value,USD,801.5
+375,Germany,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,486.3
+376,Germany,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,327.8
+377,Germany,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,280.8
+378,Germany,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,262.7
+379,Germany,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,630.9
+380,Germany,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,711.7
+381,Germany,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,591.7
+382,Germany,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,651.0
+383,Germany,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,659.3
+384,Germany,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,557.8
+385,Germany,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,753.1
+386,Germany,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,1510.5
+387,Germany,"Meat, chicken",Producer Price (USD/tonne),2016,Annual value,USD,1448.0
+388,Germany,"Meat, chicken",Producer Price (USD/tonne),2017,Annual value,USD,1455.9
+389,Germany,"Meat, chicken",Producer Price (USD/tonne),2018,Annual value,USD,1563.2
+390,Greece,Apples,Producer Price (USD/tonne),2008,Annual value,USD,970.3
+391,Greece,Apples,Producer Price (USD/tonne),2009,Annual value,USD,933.8
+392,Greece,Apples,Producer Price (USD/tonne),2010,Annual value,USD,811.0
+393,Greece,Apples,Producer Price (USD/tonne),2011,Annual value,USD,868.8
+394,Greece,Apples,Producer Price (USD/tonne),2012,Annual value,USD,814.1
+395,Greece,Apples,Producer Price (USD/tonne),2013,Annual value,USD,848.2
+396,Greece,Apples,Producer Price (USD/tonne),2014,Annual value,USD,826.3
+397,Greece,Apples,Producer Price (USD/tonne),2015,Annual value,USD,669.1
+398,Greece,Apples,Producer Price (USD/tonne),2016,Annual value,USD,616.8
+399,Greece,Apples,Producer Price (USD/tonne),2017,Annual value,USD,657.0
+400,Greece,Apples,Producer Price (USD/tonne),2018,Annual value,USD,765.7
+401,Greece,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,826.3
+402,Greece,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,780.0
+403,Greece,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,749.3
+404,Greece,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,744.0
+405,Greece,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,685.6
+406,Greece,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,745.9
+407,Greece,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,706.9
+408,Greece,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,642.9
+409,Greece,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,574.6
+410,Greece,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,625.1
+411,Greece,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,711.3
+412,Greece,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,2534.1
+413,Greece,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,2597.8
+414,Greece,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,2516.4
+415,Greece,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,2877.6
+416,Greece,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,3096.5
+417,Greece,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,2363.4
+418,Greece,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,2929.4
+419,Greece,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,1940.9
+420,Greece,"Meat, chicken",Producer Price (USD/tonne),2016,Annual value,USD,1670.3
+421,Greece,"Meat, chicken",Producer Price (USD/tonne),2017,Annual value,USD,2050.9
+422,Hungary,Apples,Producer Price (USD/tonne),2008,Annual value,USD,101.3
+423,Hungary,Apples,Producer Price (USD/tonne),2009,Annual value,USD,63.9
+424,Hungary,Apples,Producer Price (USD/tonne),2010,Annual value,USD,157.9
+425,Hungary,Apples,Producer Price (USD/tonne),2011,Annual value,USD,188.7
+426,Hungary,Apples,Producer Price (USD/tonne),2012,Annual value,USD,146.2
+427,Hungary,Apples,Producer Price (USD/tonne),2013,Annual value,USD,151.3
+428,Hungary,Apples,Producer Price (USD/tonne),2014,Annual value,USD,73.9
+429,Hungary,Apples,Producer Price (USD/tonne),2015,Annual value,USD,144.6
+430,Hungary,Apples,Producer Price (USD/tonne),2016,Annual value,USD,96.1
+431,Hungary,Apples,Producer Price (USD/tonne),2017,Annual value,USD,220.9
+432,Hungary,Apples,Producer Price (USD/tonne),2018,Annual value,USD,97.6
+433,Hungary,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,609.9
+434,Hungary,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,532.6
+435,Hungary,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,486.5
+436,Hungary,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,434.8
+437,Hungary,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,483.0
+438,Hungary,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,554.0
+439,Hungary,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,508.6
+440,Hungary,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,451.9
+441,Hungary,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,455.4
+442,Hungary,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,509.5
+443,Hungary,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,646.6
+444,Hungary,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,1899.6
+445,Hungary,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,1498.2
+446,Hungary,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1447.2
+447,Hungary,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,1748.7
+448,Hungary,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,1696.5
+449,Hungary,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,1838.0
+450,Hungary,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,1933.0
+451,Hungary,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,1537.7
+452,Hungary,Soybeans,Producer Price (USD/tonne),2008,Annual value,USD,437.7
+453,Hungary,Soybeans,Producer Price (USD/tonne),2009,Annual value,USD,366.2
+454,Hungary,Soybeans,Producer Price (USD/tonne),2010,Annual value,USD,422.7
+455,Hungary,Soybeans,Producer Price (USD/tonne),2011,Annual value,USD,476.9
+456,Hungary,Soybeans,Producer Price (USD/tonne),2012,Annual value,USD,575.9
+457,Hungary,Soybeans,Producer Price (USD/tonne),2013,Annual value,USD,568.8
+458,Hungary,Soybeans,Producer Price (USD/tonne),2014,Annual value,USD,463.6
+459,Hungary,Soybeans,Producer Price (USD/tonne),2015,Annual value,USD,365.6
+460,Hungary,Soybeans,Producer Price (USD/tonne),2016,Annual value,USD,374.0
+461,Hungary,Soybeans,Producer Price (USD/tonne),2017,Annual value,USD,405.9
+462,Hungary,Soybeans,Producer Price (USD/tonne),2018,Annual value,USD,399.0
+463,Ireland,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,1664.0
+464,Ireland,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,1581.8
+465,Ireland,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1520.4
+466,Ireland,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,1726.7
+467,Ireland,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,1645.8
+468,Italy,Apples,Producer Price (USD/tonne),2008,Annual value,USD,661.5
+469,Italy,Apples,Producer Price (USD/tonne),2009,Annual value,USD,556.6
+470,Italy,Apples,Producer Price (USD/tonne),2010,Annual value,USD,535.1
+471,Italy,Apples,Producer Price (USD/tonne),2011,Annual value,USD,514.9
+472,Italy,Apples,Producer Price (USD/tonne),2012,Annual value,USD,619.3
+473,Italy,Apples,Producer Price (USD/tonne),2013,Annual value,USD,764.8
+474,Italy,Apples,Producer Price (USD/tonne),2014,Annual value,USD,581.5
+475,Italy,Apples,Producer Price (USD/tonne),2015,Annual value,USD,490.0
+476,Italy,Apples,Producer Price (USD/tonne),2016,Annual value,USD,597.3
+477,Italy,Apples,Producer Price (USD/tonne),2017,Annual value,USD,608.4
+478,Italy,Apples,Producer Price (USD/tonne),2018,Annual value,USD,790.9
+479,Italy,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,2239.4
+480,Italy,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,2040.6
+481,Italy,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1854.0
+482,Italy,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,2203.6
+483,Italy,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,2083.2
+484,Italy,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,2358.8
+485,Italy,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,2233.5
+486,Italy,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,2118.3
+487,Latvia,Apples,Producer Price (USD/tonne),2008,Annual value,USD,418.0
+488,Latvia,Apples,Producer Price (USD/tonne),2009,Annual value,USD,300.7
+489,Latvia,Apples,Producer Price (USD/tonne),2010,Annual value,USD,490.1
+490,Latvia,Apples,Producer Price (USD/tonne),2011,Annual value,USD,381.1
+491,Latvia,Apples,Producer Price (USD/tonne),2012,Annual value,USD,510.2
+492,Latvia,Apples,Producer Price (USD/tonne),2013,Annual value,USD,304.1
+493,Latvia,Apples,Producer Price (USD/tonne),2014,Annual value,USD,424.6
+494,Latvia,Apples,Producer Price (USD/tonne),2015,Annual value,USD,369.3
+495,Latvia,Apples,Producer Price (USD/tonne),2016,Annual value,USD,403.7
+496,Latvia,Apples,Producer Price (USD/tonne),2017,Annual value,USD,557.8
+497,Latvia,Apples,Producer Price (USD/tonne),2018,Annual value,USD,704.7
+498,Latvia,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,1258.3
+499,Latvia,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,1137.4
+500,Latvia,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,1176.3
+501,Latvia,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,1129.2
+502,Latvia,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,1360.5
+503,Latvia,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,1507.4
+504,Latvia,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,1448.8
+505,Latvia,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,1309.8
+506,Latvia,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,1570.7
+507,Latvia,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,1570.9
+508,Latvia,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,1881.5
+509,Latvia,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,2738.4
+510,Latvia,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,2365.4
+511,Latvia,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,2013.4
+512,Latvia,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,2227.9
+513,Latvia,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,2074.9
+514,Latvia,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,2348.1
+515,Latvia,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,2483.6
+516,Latvia,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,1863.2
+517,Latvia,"Meat, chicken",Producer Price (USD/tonne),2016,Annual value,USD,1879.4
+518,Latvia,"Meat, chicken",Producer Price (USD/tonne),2017,Annual value,USD,1584.4
+519,Latvia,"Meat, chicken",Producer Price (USD/tonne),2018,Annual value,USD,2066.8
+520,Lithuania,Apples,Producer Price (USD/tonne),2008,Annual value,USD,579.8
+521,Lithuania,Apples,Producer Price (USD/tonne),2009,Annual value,USD,353.4
+522,Lithuania,Apples,Producer Price (USD/tonne),2010,Annual value,USD,477.5
+523,Lithuania,Apples,Producer Price (USD/tonne),2011,Annual value,USD,624.5
+524,Lithuania,Apples,Producer Price (USD/tonne),2012,Annual value,USD,513.9
+525,Lithuania,Apples,Producer Price (USD/tonne),2013,Annual value,USD,447.1
+526,Lithuania,Apples,Producer Price (USD/tonne),2014,Annual value,USD,554.8
+527,Lithuania,Apples,Producer Price (USD/tonne),2015,Annual value,USD,444.4
+528,Lithuania,Apples,Producer Price (USD/tonne),2016,Annual value,USD,405.8
+529,Lithuania,Apples,Producer Price (USD/tonne),2017,Annual value,USD,441.6
+530,Lithuania,Apples,Producer Price (USD/tonne),2018,Annual value,USD,546.2
+531,Lithuania,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,1238.8
+532,Lithuania,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,839.0
+533,Lithuania,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,939.3
+534,Lithuania,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,956.8
+535,Lithuania,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,1171.5
+536,Lithuania,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,1166.5
+537,Lithuania,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,1192.2
+538,Lithuania,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,977.3
+539,Lithuania,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,1028.4
+540,Lithuania,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,993.6
+541,Lithuania,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,1224.5
+542,Lithuania,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,1884.8
+543,Lithuania,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,1472.5
+544,Lithuania,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1411.2
+545,Lithuania,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,1696.5
+546,Lithuania,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,1599.8
+547,Lithuania,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,1737.5
+548,Lithuania,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,1595.9
+549,Lithuania,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,1331.9
+550,Luxembourg,Apples,Producer Price (USD/tonne),2008,Annual value,USD,1757.8
+551,Luxembourg,Apples,Producer Price (USD/tonne),2009,Annual value,USD,1625.4
+552,Luxembourg,Apples,Producer Price (USD/tonne),2010,Annual value,USD,1642.3
+553,Luxembourg,Apples,Producer Price (USD/tonne),2011,Annual value,USD,1723.8
+554,Luxembourg,Apples,Producer Price (USD/tonne),2012,Annual value,USD,1715.3
+555,Luxembourg,Apples,Producer Price (USD/tonne),2013,Annual value,USD,1858.8
+556,Luxembourg,Apples,Producer Price (USD/tonne),2014,Annual value,USD,1724.8
+557,Luxembourg,Apples,Producer Price (USD/tonne),2015,Annual value,USD,1525.0
+558,Luxembourg,Apples,Producer Price (USD/tonne),2016,Annual value,USD,1526.5
+559,Luxembourg,Apples,Producer Price (USD/tonne),2017,Annual value,USD,1605.8
+560,Luxembourg,Apples,Producer Price (USD/tonne),2018,Annual value,USD,1652.5
+561,Luxembourg,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,9796.0
+562,Luxembourg,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,5723.5
+563,Luxembourg,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,5456.6
+564,Luxembourg,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,6130.5
+565,Luxembourg,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,6424.3
+566,Luxembourg,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,7169.8
+567,Luxembourg,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,7204.2
+568,Luxembourg,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,5379.0
+569,Luxembourg,"Meat, chicken",Producer Price (USD/tonne),2016,Annual value,USD,5055.1
+570,Luxembourg,"Meat, chicken",Producer Price (USD/tonne),2017,Annual value,USD,5352.7
+571,Luxembourg,"Meat, chicken",Producer Price (USD/tonne),2018,Annual value,USD,5497.6
+572,Malta,Apples,Producer Price (USD/tonne),2008,Annual value,USD,511.1
+573,Malta,Apples,Producer Price (USD/tonne),2009,Annual value,USD,499.1
+574,Malta,Apples,Producer Price (USD/tonne),2010,Annual value,USD,456.9
+575,Malta,Apples,Producer Price (USD/tonne),2011,Annual value,USD,481.9
+576,Malta,Apples,Producer Price (USD/tonne),2012,Annual value,USD,613.5
+577,Malta,Apples,Producer Price (USD/tonne),2013,Annual value,USD,567.3
+578,Malta,Apples,Producer Price (USD/tonne),2014,Annual value,USD,528.7
+579,Malta,Apples,Producer Price (USD/tonne),2015,Annual value,USD,497.2
+580,Malta,Apples,Producer Price (USD/tonne),2016,Annual value,USD,508.7
+581,Malta,Apples,Producer Price (USD/tonne),2017,Annual value,USD,479.8
+582,Malta,Apples,Producer Price (USD/tonne),2018,Annual value,USD,519.4
+583,Malta,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,1582.0
+584,Malta,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,1645.1
+585,Malta,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1573.4
+586,Malta,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,1761.1
+587,Malta,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,1638.7
+588,Malta,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,1742.8
+589,Malta,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,1656.5
+590,Malta,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,1335.7
+591,Malta,"Meat, chicken",Producer Price (USD/tonne),2016,Annual value,USD,1326.9
+592,Malta,"Meat, chicken",Producer Price (USD/tonne),2017,Annual value,USD,1338.4
+593,Malta,"Meat, chicken",Producer Price (USD/tonne),2018,Annual value,USD,1414.1
+594,Netherlands,Apples,Producer Price (USD/tonne),2008,Annual value,USD,771.0
+595,Netherlands,Apples,Producer Price (USD/tonne),2009,Annual value,USD,507.1
+596,Netherlands,Apples,Producer Price (USD/tonne),2010,Annual value,USD,579.8
+597,Netherlands,Apples,Producer Price (USD/tonne),2011,Annual value,USD,745.9
+598,Netherlands,Apples,Producer Price (USD/tonne),2012,Annual value,USD,753.2
+599,Netherlands,Apples,Producer Price (USD/tonne),2013,Annual value,USD,983.8
+600,Netherlands,Apples,Producer Price (USD/tonne),2014,Annual value,USD,730.4
+601,Netherlands,Apples,Producer Price (USD/tonne),2015,Annual value,USD,532.3
+602,Netherlands,Apples,Producer Price (USD/tonne),2016,Annual value,USD,538.4
+603,Netherlands,Apples,Producer Price (USD/tonne),2017,Annual value,USD,776.4
+604,Netherlands,Apples,Producer Price (USD/tonne),2018,Annual value,USD,1008.9
+605,Netherlands,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,765.5
+606,Netherlands,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,690.3
+607,Netherlands,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,838.0
+608,Netherlands,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,572.6
+609,Netherlands,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,659.3
+610,Netherlands,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,757.0
+611,Netherlands,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,571.1
+612,Netherlands,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,689.1
+613,Netherlands,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,669.9
+614,Netherlands,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,528.0
+615,Netherlands,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,792.8
+616,Netherlands,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,1555.7
+617,Netherlands,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,1391.6
+618,Netherlands,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1336.8
+619,Netherlands,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,1567.3
+620,Netherlands,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,1490.8
+621,Netherlands,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,1568.2
+622,Netherlands,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,1508.2
+623,Netherlands,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,1240.6
+624,Poland,Apples,Producer Price (USD/tonne),2008,Annual value,USD,169.3
+625,Poland,Apples,Producer Price (USD/tonne),2009,Annual value,USD,102.2
+626,Poland,Apples,Producer Price (USD/tonne),2010,Annual value,USD,211.9
+627,Poland,Apples,Producer Price (USD/tonne),2011,Annual value,USD,285.5
+628,Poland,Apples,Producer Price (USD/tonne),2012,Annual value,USD,224.2
+629,Poland,Apples,Producer Price (USD/tonne),2013,Annual value,USD,283.2
+630,Poland,Apples,Producer Price (USD/tonne),2014,Annual value,USD,167.7
+631,Poland,Apples,Producer Price (USD/tonne),2015,Annual value,USD,206.4
+632,Poland,Apples,Producer Price (USD/tonne),2016,Annual value,USD,148.6
+633,Poland,Apples,Producer Price (USD/tonne),2017,Annual value,USD,274.7
+634,Poland,Apples,Producer Price (USD/tonne),2018,Annual value,USD,171.4
+635,Poland,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,658.3
+636,Poland,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,572.4
+637,Poland,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,471.3
+638,Poland,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,414.8
+639,Poland,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,476.6
+640,Poland,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,571.1
+641,Poland,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,489.8
+642,Poland,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,478.3
+643,Poland,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,357.4
+644,Poland,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,472.3
+645,Poland,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,533.5
+646,Poland,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,1906.9
+647,Poland,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,1570.0
+648,Poland,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1540.5
+649,Poland,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,1813.8
+650,Poland,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,1718.3
+651,Poland,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,1775.0
+652,Poland,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,1700.3
+653,Poland,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,1344.5
+654,Portugal,Apples,Producer Price (USD/tonne),2008,Annual value,USD,960.0
+655,Portugal,Apples,Producer Price (USD/tonne),2009,Annual value,USD,801.0
+656,Portugal,Apples,Producer Price (USD/tonne),2010,Annual value,USD,783.1
+657,Portugal,Apples,Producer Price (USD/tonne),2011,Annual value,USD,900.4
+658,Portugal,Apples,Producer Price (USD/tonne),2012,Annual value,USD,802.8
+659,Portugal,Apples,Producer Price (USD/tonne),2013,Annual value,USD,922.8
+660,Portugal,Apples,Producer Price (USD/tonne),2014,Annual value,USD,782.1
+661,Portugal,Apples,Producer Price (USD/tonne),2015,Annual value,USD,638.7
+662,Portugal,Apples,Producer Price (USD/tonne),2016,Annual value,USD,708.4
+663,Portugal,Apples,Producer Price (USD/tonne),2017,Annual value,USD,793.8
+664,Portugal,Apples,Producer Price (USD/tonne),2018,Annual value,USD,816.2
+665,Portugal,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,796.9
+666,Portugal,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,427.9
+667,Portugal,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,731.6
+668,Portugal,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,545.9
+669,Portugal,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,552.7
+670,Portugal,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,637.6
+671,Portugal,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,641.9
+672,Portugal,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,508.4
+673,Portugal,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,573.3
+674,Portugal,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,668.4
+675,Portugal,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,771.6
+676,Portugal,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,1064.8
+677,Portugal,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,1015.2
+678,Portugal,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,763.6
+679,Portugal,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,975.5
+680,Portugal,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,979.7
+681,Portugal,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,883.2
+682,Portugal,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,977.7
+683,Portugal,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,719.1
+684,Romania,Apples,Producer Price (USD/tonne),2008,Annual value,USD,1040.2
+685,Romania,Apples,Producer Price (USD/tonne),2009,Annual value,USD,728.0
+686,Romania,Apples,Producer Price (USD/tonne),2010,Annual value,USD,679.7
+687,Romania,Apples,Producer Price (USD/tonne),2011,Annual value,USD,859.4
+688,Romania,Apples,Producer Price (USD/tonne),2012,Annual value,USD,772.7
+689,Romania,Apples,Producer Price (USD/tonne),2013,Annual value,USD,838.4
+690,Romania,Apples,Producer Price (USD/tonne),2014,Annual value,USD,821.1
+691,Romania,Apples,Producer Price (USD/tonne),2015,Annual value,USD,666.6
+692,Romania,Apples,Producer Price (USD/tonne),2016,Annual value,USD,657.8
+693,Romania,Apples,Producer Price (USD/tonne),2017,Annual value,USD,683.5
+694,Romania,Apples,Producer Price (USD/tonne),2018,Annual value,USD,682.5
+695,Romania,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,861.5
+696,Romania,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,590.3
+697,Romania,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,673.4
+698,Romania,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,593.7
+699,Romania,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,634.3
+700,Romania,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,649.1
+701,Romania,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,647.9
+702,Romania,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,511.8
+703,Romania,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,618.4
+704,Romania,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,587.3
+705,Romania,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,657.1
+706,Romania,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,2354.2
+707,Romania,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,2046.4
+708,Romania,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1935.2
+709,Romania,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,2168.2
+710,Romania,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,2035.6
+711,Romania,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,2379.9
+712,Romania,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,2323.0
+713,Romania,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,1834.9
+714,Romania,"Meat, chicken",Producer Price (USD/tonne),2016,Annual value,USD,1813.2
+715,Romania,"Meat, chicken",Producer Price (USD/tonne),2017,Annual value,USD,1806.3
+716,Romania,"Meat, chicken",Producer Price (USD/tonne),2018,Annual value,USD,1862.2
+717,Romania,Soybeans,Producer Price (USD/tonne),2008,Annual value,USD,385.1
+718,Romania,Soybeans,Producer Price (USD/tonne),2009,Annual value,USD,314.8
+719,Romania,Soybeans,Producer Price (USD/tonne),2010,Annual value,USD,387.0
+720,Romania,Soybeans,Producer Price (USD/tonne),2011,Annual value,USD,426.4
+721,Romania,Soybeans,Producer Price (USD/tonne),2012,Annual value,USD,493.1
+722,Romania,Soybeans,Producer Price (USD/tonne),2013,Annual value,USD,549.9
+723,Romania,Soybeans,Producer Price (USD/tonne),2014,Annual value,USD,427.0
+724,Romania,Soybeans,Producer Price (USD/tonne),2015,Annual value,USD,332.0
+725,Romania,Soybeans,Producer Price (USD/tonne),2016,Annual value,USD,342.4
+726,Romania,Soybeans,Producer Price (USD/tonne),2017,Annual value,USD,330.7
+727,Romania,Soybeans,Producer Price (USD/tonne),2018,Annual value,USD,342.5
+728,Slovakia,Apples,Producer Price (USD/tonne),2008,Annual value,USD,534.3
+729,Slovakia,Apples,Producer Price (USD/tonne),2009,Annual value,USD,470.6
+730,Slovakia,Apples,Producer Price (USD/tonne),2010,Annual value,USD,521.7
+731,Slovakia,Apples,Producer Price (USD/tonne),2011,Annual value,USD,551.9
+732,Slovakia,Apples,Producer Price (USD/tonne),2012,Annual value,USD,505.0
+733,Slovakia,Apples,Producer Price (USD/tonne),2013,Annual value,USD,481.2
+734,Slovakia,Apples,Producer Price (USD/tonne),2014,Annual value,USD,464.6
+735,Slovakia,Apples,Producer Price (USD/tonne),2015,Annual value,USD,369.6
+736,Slovakia,Apples,Producer Price (USD/tonne),2016,Annual value,USD,384.1
+737,Slovakia,Apples,Producer Price (USD/tonne),2017,Annual value,USD,470.5
+738,Slovakia,Apples,Producer Price (USD/tonne),2018,Annual value,USD,453.1
+739,Slovakia,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,1050.0
+740,Slovakia,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,839.3
+741,Slovakia,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,825.7
+742,Slovakia,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,847.0
+743,Slovakia,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,788.5
+744,Slovakia,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,846.9
+745,Slovakia,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,874.7
+746,Slovakia,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,720.0
+747,Slovakia,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,591.1
+748,Slovakia,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,598.4
+749,Slovakia,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,708.8
+750,Slovakia,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,1965.2
+751,Slovakia,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,1573.1
+752,Slovakia,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1491.7
+753,Slovakia,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,1810.7
+754,Slovakia,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,1721.2
+755,Slovakia,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,1893.9
+756,Slovakia,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,1749.1
+757,Slovakia,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,1381.5
+758,Slovakia,Soybeans,Producer Price (USD/tonne),2008,Annual value,USD,439.1
+759,Slovakia,Soybeans,Producer Price (USD/tonne),2009,Annual value,USD,381.7
+760,Slovakia,Soybeans,Producer Price (USD/tonne),2010,Annual value,USD,419.0
+761,Slovakia,Soybeans,Producer Price (USD/tonne),2011,Annual value,USD,471.6
+762,Slovakia,Soybeans,Producer Price (USD/tonne),2012,Annual value,USD,549.7
+763,Slovakia,Soybeans,Producer Price (USD/tonne),2013,Annual value,USD,510.4
+764,Slovakia,Soybeans,Producer Price (USD/tonne),2014,Annual value,USD,456.3
+765,Slovakia,Soybeans,Producer Price (USD/tonne),2015,Annual value,USD,360.3
+766,Slovakia,Soybeans,Producer Price (USD/tonne),2016,Annual value,USD,360.3
+767,Slovakia,Soybeans,Producer Price (USD/tonne),2017,Annual value,USD,385.0
+768,Slovakia,Soybeans,Producer Price (USD/tonne),2018,Annual value,USD,398.3
+769,Slovenia,Apples,Producer Price (USD/tonne),2008,Annual value,USD,867.5
+770,Slovenia,Apples,Producer Price (USD/tonne),2009,Annual value,USD,603.6
+771,Slovenia,Apples,Producer Price (USD/tonne),2010,Annual value,USD,543.8
+772,Slovenia,Apples,Producer Price (USD/tonne),2011,Annual value,USD,628.3
+773,Slovenia,Apples,Producer Price (USD/tonne),2012,Annual value,USD,608.5
+774,Slovenia,Apples,Producer Price (USD/tonne),2013,Annual value,USD,763.7
+775,Slovenia,Apples,Producer Price (USD/tonne),2014,Annual value,USD,543.8
+776,Slovenia,Apples,Producer Price (USD/tonne),2015,Annual value,USD,511.4
+777,Slovenia,Apples,Producer Price (USD/tonne),2016,Annual value,USD,547.4
+778,Slovenia,Apples,Producer Price (USD/tonne),2017,Annual value,USD,708.3
+779,Slovenia,Apples,Producer Price (USD/tonne),2018,Annual value,USD,462.0
+780,Slovenia,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,537.9
+781,Slovenia,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,597.5
+782,Slovenia,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,594.1
+783,Slovenia,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,481.8
+784,Slovenia,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,593.1
+785,Slovenia,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,775.3
+786,Slovenia,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,625.6
+787,Slovenia,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,500.6
+788,Slovenia,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,497.9
+789,Slovenia,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,469.9
+790,Slovenia,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,591.4
+791,Slovenia,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,2205.1
+792,Slovenia,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,1981.0
+793,Slovenia,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1885.5
+794,Slovenia,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,2119.8
+795,Slovenia,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,1956.7
+796,Slovenia,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,2177.6
+797,Slovenia,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,2037.6
+798,Slovenia,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,1591.8
+799,Slovenia,Soybeans,Producer Price (USD/tonne),2011,Annual value,USD,486.5
+800,Slovenia,Soybeans,Producer Price (USD/tonne),2012,Annual value,USD,513.3
+801,Slovenia,Soybeans,Producer Price (USD/tonne),2013,Annual value,USD,506.8
+802,Slovenia,Soybeans,Producer Price (USD/tonne),2014,Annual value,USD,426.9
+803,Slovenia,Soybeans,Producer Price (USD/tonne),2015,Annual value,USD,325.2
+804,Slovenia,Soybeans,Producer Price (USD/tonne),2016,Annual value,USD,348.4
+805,Slovenia,Soybeans,Producer Price (USD/tonne),2017,Annual value,USD,359.9
+806,Slovenia,Soybeans,Producer Price (USD/tonne),2018,Annual value,USD,367.2
+807,Spain,Apples,Producer Price (USD/tonne),2008,Annual value,USD,574.1
+808,Spain,Apples,Producer Price (USD/tonne),2009,Annual value,USD,415.4
+809,Spain,Apples,Producer Price (USD/tonne),2010,Annual value,USD,456.4
+810,Spain,Apples,Producer Price (USD/tonne),2011,Annual value,USD,475.7
+811,Spain,Apples,Producer Price (USD/tonne),2012,Annual value,USD,558.1
+812,Spain,Apples,Producer Price (USD/tonne),2013,Annual value,USD,648.3
+813,Spain,Apples,Producer Price (USD/tonne),2014,Annual value,USD,464.5
+814,Spain,Apples,Producer Price (USD/tonne),2015,Annual value,USD,418.5
+815,Spain,Apples,Producer Price (USD/tonne),2016,Annual value,USD,475.9
+816,Spain,Apples,Producer Price (USD/tonne),2017,Annual value,USD,493.8
+817,Spain,Apples,Producer Price (USD/tonne),2018,Annual value,USD,638.2
+818,Spain,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,650.5
+819,Spain,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,588.9
+820,Spain,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,641.4
+821,Spain,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,516.4
+822,Spain,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,513.2
+823,Spain,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,648.6
+824,Spain,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,617.5
+825,Spain,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,645.3
+826,Spain,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,572.5
+827,Spain,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,631.6
+828,Spain,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,644.8
+829,Spain,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,1999.4
+830,Spain,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,1863.2
+831,Spain,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1723.9
+832,Spain,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,2137.3
+833,Spain,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,2140.4
+834,Spain,"Meat, chicken",Producer Price (USD/tonne),2013,Annual value,USD,2138.4
+835,Spain,"Meat, chicken",Producer Price (USD/tonne),2014,Annual value,USD,1526.3
+836,Spain,"Meat, chicken",Producer Price (USD/tonne),2015,Annual value,USD,1227.7
+837,Spain,"Meat, chicken",Producer Price (USD/tonne),2016,Annual value,USD,1142.0
+838,Spain,"Meat, chicken",Producer Price (USD/tonne),2017,Annual value,USD,1305.8
+839,Spain,"Meat, chicken",Producer Price (USD/tonne),2018,Annual value,USD,1367.2
+840,Spain,Soybeans,Producer Price (USD/tonne),2008,Annual value,USD,399.9
+841,Spain,Soybeans,Producer Price (USD/tonne),2009,Annual value,USD,428.6
+842,Spain,Soybeans,Producer Price (USD/tonne),2010,Annual value,USD,432.8
+843,Spain,Soybeans,Producer Price (USD/tonne),2011,Annual value,USD,467.2
+844,Spain,Soybeans,Producer Price (USD/tonne),2012,Annual value,USD,567.0
+845,Spain,Soybeans,Producer Price (USD/tonne),2013,Annual value,USD,589.1
+846,Spain,Soybeans,Producer Price (USD/tonne),2014,Annual value,USD,654.9
+847,Spain,Soybeans,Producer Price (USD/tonne),2015,Annual value,USD,528.3
+848,Spain,Soybeans,Producer Price (USD/tonne),2016,Annual value,USD,507.8
+849,Spain,Soybeans,Producer Price (USD/tonne),2017,Annual value,USD,512.8
+850,Spain,Soybeans,Producer Price (USD/tonne),2018,Annual value,USD,566.0
+851,Sweden,Apples,Producer Price (USD/tonne),2008,Annual value,USD,870.9
+852,Sweden,Apples,Producer Price (USD/tonne),2009,Annual value,USD,717.3
+853,Sweden,Apples,Producer Price (USD/tonne),2010,Annual value,USD,897.7
+854,Sweden,Apples,Producer Price (USD/tonne),2011,Annual value,USD,917.8
+855,Sweden,Apples,Producer Price (USD/tonne),2012,Annual value,USD,987.5
+856,Sweden,Apples,Producer Price (USD/tonne),2013,Annual value,USD,941.1
+857,Sweden,Apples,Producer Price (USD/tonne),2014,Annual value,USD,903.7
+858,Sweden,Apples,Producer Price (USD/tonne),2015,Annual value,USD,745.1
+859,Sweden,Apples,Producer Price (USD/tonne),2016,Annual value,USD,676.4
+860,Sweden,Apples,Producer Price (USD/tonne),2017,Annual value,USD,959.9
+861,Sweden,Apples,Producer Price (USD/tonne),2018,Annual value,USD,1009.7
+862,Sweden,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,986.2
+863,Sweden,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,1285.9
+864,Sweden,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,1455.3
+865,Sweden,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,1440.0
+866,Sweden,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,1256.4
+867,Sweden,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,1145.6
+868,Sweden,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,1259.4
+869,Sweden,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,1260.6
+870,Sweden,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,1351.6
+871,Sweden,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,1878.8
+872,Sweden,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,1537.4
+873,Sweden,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1632.6
+874,Sweden,"Meat, chicken",Producer Price (USD/tonne),2011,Annual value,USD,2014.6
+875,Sweden,"Meat, chicken",Producer Price (USD/tonne),2012,Annual value,USD,1933.0
+876,United Kingdom of Great Britain and Northern Ireland,Apples,Producer Price (USD/tonne),2008,Annual value,USD,1108.5
+877,United Kingdom of Great Britain and Northern Ireland,Apples,Producer Price (USD/tonne),2009,Annual value,USD,978.3
+878,United Kingdom of Great Britain and Northern Ireland,Apples,Producer Price (USD/tonne),2010,Annual value,USD,1018.3
+879,United Kingdom of Great Britain and Northern Ireland,Apples,Producer Price (USD/tonne),2011,Annual value,USD,1134.4
+880,United Kingdom of Great Britain and Northern Ireland,Apples,Producer Price (USD/tonne),2012,Annual value,USD,1271.6
+881,United Kingdom of Great Britain and Northern Ireland,Apples,Producer Price (USD/tonne),2013,Annual value,USD,1221.0
+882,United Kingdom of Great Britain and Northern Ireland,Apples,Producer Price (USD/tonne),2014,Annual value,USD,1163.3
+883,United Kingdom of Great Britain and Northern Ireland,Apples,Producer Price (USD/tonne),2015,Annual value,USD,1016.0
+884,United Kingdom of Great Britain and Northern Ireland,Apples,Producer Price (USD/tonne),2016,Annual value,USD,930.3
+885,United Kingdom of Great Britain and Northern Ireland,Apples,Producer Price (USD/tonne),2017,Annual value,USD,1054.1
+886,United Kingdom of Great Britain and Northern Ireland,Apples,Producer Price (USD/tonne),2018,Annual value,USD,1343.4
+887,United Kingdom of Great Britain and Northern Ireland,Cucumbers and gherkins,Producer Price (USD/tonne),2008,Annual value,USD,1174.7
+888,United Kingdom of Great Britain and Northern Ireland,Cucumbers and gherkins,Producer Price (USD/tonne),2009,Annual value,USD,1014.1
+889,United Kingdom of Great Britain and Northern Ireland,Cucumbers and gherkins,Producer Price (USD/tonne),2010,Annual value,USD,1234.6
+890,United Kingdom of Great Britain and Northern Ireland,Cucumbers and gherkins,Producer Price (USD/tonne),2011,Annual value,USD,1014.2
+891,United Kingdom of Great Britain and Northern Ireland,Cucumbers and gherkins,Producer Price (USD/tonne),2012,Annual value,USD,1189.5
+892,United Kingdom of Great Britain and Northern Ireland,Cucumbers and gherkins,Producer Price (USD/tonne),2013,Annual value,USD,1210.0
+893,United Kingdom of Great Britain and Northern Ireland,Cucumbers and gherkins,Producer Price (USD/tonne),2014,Annual value,USD,1148.5
+894,United Kingdom of Great Britain and Northern Ireland,Cucumbers and gherkins,Producer Price (USD/tonne),2015,Annual value,USD,1228.3
+895,United Kingdom of Great Britain and Northern Ireland,Cucumbers and gherkins,Producer Price (USD/tonne),2016,Annual value,USD,1095.0
+896,United Kingdom of Great Britain and Northern Ireland,Cucumbers and gherkins,Producer Price (USD/tonne),2017,Annual value,USD,1047.6
+897,United Kingdom of Great Britain and Northern Ireland,Cucumbers and gherkins,Producer Price (USD/tonne),2018,Annual value,USD,1218.0
+898,United Kingdom of Great Britain and Northern Ireland,"Meat, chicken",Producer Price (USD/tonne),2008,Annual value,USD,1792.0
+899,United Kingdom of Great Britain and Northern Ireland,"Meat, chicken",Producer Price (USD/tonne),2009,Annual value,USD,1529.8
+900,United Kingdom of Great Britain and Northern Ireland,"Meat, chicken",Producer Price (USD/tonne),2010,Annual value,USD,1624.0

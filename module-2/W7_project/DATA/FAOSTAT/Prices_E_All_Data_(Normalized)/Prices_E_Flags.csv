@@ -1,0 +1,14 @@
+Flag,Description
+C ,Calculated
+Ce,Calculated data based on estimated data
+F ,FAO estimate
+Fa,Other analytical methods
+Fc,Calculated data
+Fk,Calculated data on the basis of official figures
+Fm,Manual Estimation
+Ft,Trend data
+Fz,Historical estimates (Prices domain)
+K,Estimated time series for internal users only: not for dissemination to external users
+Q ,Official data reported on FAO Questionnaires from countries
+W ,Data reported on country official publications or web sites (Official) or trade country files
+X ,International reliable sources
