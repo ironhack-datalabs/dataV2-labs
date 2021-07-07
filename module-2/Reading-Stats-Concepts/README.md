@@ -17,11 +17,14 @@ You know both concepts but, is there a difference? Are they synonims? Start inve
 
 As a good reference (once you have looked for some information) you have   [this](http://expected.news/value2) article.
 
+Answer: They are numerically the same. The difference is that the mean is related to the sample average, as the expected value relates to the mean from the whole distribution of the random variable.
+
 ### Challenge 2: What is the "problem" in science with p-values?
 We have told you that a lot of scientifical investigations are based on p-values. The last week, Nature magazine published [an article](http://nature.social/statistical4) regarding the problem. Start digging on it!
 
 Don't hesitate to use more articles if you want to :)
 
+Answer: The problem is the use of the phrases ' statistically non-significant' for higher p-values and 'statistically significant' for lower p-values, since it's misinterpreted and biased as the probability of something happening or not. The fact that a certain interval relates better with the data, doesn't mean that the values outside that interval are incompatible.
 
 ### Challenge 3: Applying testing to a specific case: A/B testing.
 A/B testing is a widely used tool to understand differences between two samples. It is a way to measure the impact of something we did: 
@@ -56,6 +59,24 @@ Read more about A/B testing with a couple of examples:
 [A cool general explanation](http://arts.show/tested7)
 
 So, take one single example in the articles you just read, which specific test/s would you apply? (We want you just to do a draft and think a little bit how to apply the tests you already know in this case)
+
+Netflix: the objective was to increase titles access by changing the artwork to those more clicked by users.
+
+Experiment 1: chose two different artworks for the same title + the original artwork, and tested them within these three sample.
+Sample 1 - original artwork
+
+Sample 2 - different artwork
+Sample 3 - another different artwork.
+They found out that one of the samples had a 6% increase take rate and the other had a 14% increase take rate, over the original artwork.
+First step would be to define the null hypothesis if the artwork affects title take, and check if that increase was relevant comparing to the whole population of netflix users, where I would apply the ANOVA test and check the f-statistic for the p-value, to find out statistic 'relevance' and if the values from each group change significantly.
+
+Experiment 2: the hypothesis was that it's possible to improve aggregate streaming hours for a large member allocation by selecting the best artwork across each of these titles.
+Fase 1: measured best artwork for each title over 35 days.
+Fase 2: compare with total streaming hours / hour share of the titles.
+After measuring the best artwork and build the dataset for the hour comparison, we could build a prediction model and later apply the KS test (due to large number of data) to check how good the model fits the data.
+
+Experiment 3: a more efficient and fair approach take from experiment 2, that could be fitted and tested as answered above.
+
 
 ## Deliverables
 You need to submit a markdown file with the answers to the questions above. You can create a new `.md` file or directly edit the `README.md`.
