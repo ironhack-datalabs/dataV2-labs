@@ -1,0 +1,3 @@
+BI Analysis with Tableau Lab
+
+https://public.tableau.com/profile/viktoriya.shirochenkova#!/vizhome/BIAnalysiswithTableauIronhackLab/PaymentvsPaperlessBillingbyContract?publish=yes

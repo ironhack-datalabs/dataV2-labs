@@ -1,0 +1,8 @@
+Data Visualization with Tableau
+
+Even though the link says 'LiquorSalesIronhackLab' it is actually a link for NFL stats Ironhack Lab. Somehow I saved this lab under a day prior lab name. I tried to fix it, but did not succeed. 
+
+https://public.tableau.com/profile/viktoriya.shirochenkova#!/vizhome/LiquorSalesIronhackLab/Dashboard1?publish=yes
+
+
+

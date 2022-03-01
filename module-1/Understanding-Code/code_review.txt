@@ -1,0 +1,9 @@
+Review of Leonidas Faliagkas code
+
+1) I find it very effective that right away your entire solution was writing defining three functions. This definitely makes code executing much faster and efficient. I can follow easily in the rest of the code how these functions are executed. With said you can also use dictionary to cut down some of the code.
+2) I liked seeing your list of acceptable numbers and operations. Also the naming of those variables make it clear what you are trying to accomplish. 
+3) Use global variables inside a function
+4) This may be too complex than it needs to be --- print("%s %s %s equals %s" % (a,b,c,result_word)) or it maybe the case that I never use % 
+5) I have never used absolute variable function and it was nice to see that in your code in result=abs(result).
+6) A result greater than five does not work. The way to fix that is add option all the way up to 10 in words_to_numbers and numbers_to_words functions.
+
